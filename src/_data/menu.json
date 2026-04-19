@@ -31,12 +31,51 @@
     "price": 180,
     "category": { "fr": "Finger Food & Traiteur", "en": "Finger Food & Catering", "ar": "أطعمة الأصابع والحفلات" },
     "description": { 
-      "fr": "12 pièces individuelles croustillantes. Idéal pour vos réceptions.",
-      "en": "12 crispy individual pieces. Ideal for your receptions.",
-      "ar": "12 قطعة فردية مقرمشة. مثالية لحفلات الاستقبال الخاصة بكم."
+      "fr": "12 pièces individuelles croustillantes. Idéal pour vos réceptions ou goûters dînatoires.",
+      "en": "12 crispy individual pieces. Ideal for your receptions or cocktail parties.",
+      "ar": "12 قطعة فردية مقرمشة. مثالية لحفلات الاستقبال أو العشاء الخفيف."
     },
     "images": ["https://picsum.photos/seed/m1/600/400"],
     "b2b": true
+  },
+  {
+    "id": 4,
+    "name": { "fr": "Briouates aux Crevettes (Douzaine)", "en": "Shrimp Briouates (Dozen)", "ar": "بريوات بالقمرون (بالدزينة)" },
+    "price": 120,
+    "category": { "fr": "Finger Food & Traiteur", "en": "Finger Food & Catering", "ar": "أطعمة الأصابع والحفلات" },
+    "description": { 
+      "fr": "Triangles croustillants farcis aux crevettes roses et chermoula traditionnelle.",
+      "en": "Crispy triangles stuffed with pink shrimp and traditional chermoula.",
+      "ar": "مثلثات مقرمشة محشوة بالقمرون الوردي والشرمولة التقليدية."
+    },
+    "images": ["https://picsum.photos/seed/br1/600/400"],
+    "b2b": true
+  },
+  {
+    "id": 5,
+    "name": { "fr": "Cigares au Calamar (Douzaine)", "en": "Squid Cigars (Dozen)", "ar": "سيجار بالحبار (بالدزينة)" },
+    "price": 130,
+    "category": { "fr": "Finger Food & Traiteur", "en": "Finger Food & Catering", "ar": "أطعمة الأصابع والحفلات" },
+    "description": { 
+      "fr": "Nems allongés farcis au calamar tendre et épices douces.",
+      "en": "Long rolls stuffed with tender squid and mild spices.",
+      "ar": "لفائف طويلة محشوة بالحبار الطري والتوابل الخفيفة."
+    },
+    "images": ["https://picsum.photos/seed/c1/600/400"],
+    "b2b": true
+  },
+  {
+    "id": 6,
+    "name": { "fr": "Plateau Mixte 'Vague de Goût'", "en": "'Vague de Goût' Mixed Platter", "ar": "طبق مشكل 'فاج دو غو'" },
+    "price": 250,
+    "category": { "fr": "Finger Food & Traiteur", "en": "Finger Food & Catering", "ar": "أطعمة الأصابع والحفلات" },
+    "description": { 
+      "fr": "Assortiment de 24 pièces : Mini-bastilas, Briouates et Cigares.",
+      "en": "Assortment of 24 pieces: Mini-bastilas, Briouates and Cigars.",
+      "ar": "تشكيلة من 24 قطعة: ميني بسطيلة، بريوات وسيغار."
+    },
+    "images": ["https://picsum.photos/seed/p1/600/400"],
+    "b2b": false
   },
   {
     "id": 7,
@@ -52,6 +91,97 @@
     "b2b": false
   },
   {
+    "id": 8,
+    "name": { "fr": "Crevettes Roses Nettoyées (1kg)", "en": "Cleaned Pink Shrimp (1kg)", "ar": "قمرون وردي منظف (1 كجم)" },
+    "price": 110,
+    "category": { "fr": "La Marée Fraîche", "en": "Fresh Catch", "ar": "صيد اليوم الطازج" },
+    "description": { 
+      "fr": "Crevettes fraîches, décortiquées sur demande. Qualité premium.",
+      "en": "Fresh shrimp, peeled on request. Premium quality.",
+      "ar": "روبيان طازج، مقشر عند الطلب. جودة عالية."
+    },
+    "images": ["https://picsum.photos/seed/sh1/600/400"],
+    "b2b": true
+  },
+  {
+    "id": 9,
+    "name": { "fr": "Loup de Mer (Bar) (1kg)", "en": "Sea Bass (1kg)", "ar": "سمك القاروص (لو) (1 كجم)" },
+    "price": 130,
+    "category": { "fr": "La Marée Fraîche", "en": "Fresh Catch", "ar": "صيد اليوم الطازج" },
+    "description": { 
+      "fr": "Bar sauvage parfait pour le four ou la croûte de sel.",
+      "en": "Wild sea bass perfect for the oven or salt crust.",
+      "ar": "سمك القاروص البري مثالي للفرن أو الطهي في الملح."
+    },
+    "images": ["https://picsum.photos/seed/l1/600/400"],
+    "b2b": false
+  },
+  {
+    "id": 10,
+    "name": { "fr": "Espadon en Tranches (1kg)", "en": "Swordfish Steaks (1kg)", "ar": "سمك أبو سيف شرائح (1 كجم)" },
+    "price": 160,
+    "category": { "fr": "La Marée Fraîche", "en": "Fresh Catch", "ar": "صيد اليوم الطازج" },
+    "description": { 
+      "fr": "Steaks d'espadon frais, idéal pour la plancha ou le tagine.",
+      "en": "Fresh swordfish steaks, ideal for the griddle or tagine.",
+      "ar": "شرائح سمك أبو سيف الطازجة، مثالية للشواء أو الطاجين."
+    },
+    "images": ["https://picsum.photos/seed/e1/600/400"],
+    "b2b": false
+  },
+  {
+    "id": 11,
+    "name": { "fr": "Merlan Fritier (1kg)", "en": "Whiting for Frying (1kg)", "ar": "سمك الميرلا للقلي (1 كجم)" },
+    "price": 85,
+    "category": { "fr": "La Marée Fraîche", "en": "Fresh Catch", "ar": "صيد اليوم الطازج" },
+    "description": { 
+      "fr": "Petits merlans parfaits pour une friture légère et croustillante.",
+      "en": "Small whiting perfect for a light and crispy fry.",
+      "ar": "سمك ميرلا صغير مثالي للقلي الخفيف والمقرمش."
+    },
+    "images": ["https://picsum.photos/seed/m1/600/400"],
+    "b2b": false
+  },
+  {
+    "id": 12,
+    "name": { "fr": "Calamar Rings (1kg)", "en": "Squid Rings (1kg)", "ar": "حلقات الحبار (1 كجم)" },
+    "price": 120,
+    "category": { "fr": "La Marée Fraîche", "en": "Fresh Catch", "ar": "صيد اليوم الطازج" },
+    "description": { 
+      "fr": "Anneaux de calamar frais, prêts pour la friture ou la paella.",
+      "en": "Fresh squid rings, ready for frying or paella.",
+      "ar": "حلقات حبار طازجة، جاهزة للقلي أو للبايلة."
+    },
+    "images": ["https://picsum.photos/seed/cr1/600/400"],
+    "b2b": true
+  },
+  {
+    "id": 13,
+    "name": { "fr": "Dorade Royale (1kg)", "en": "Royal Bream (1kg)", "ar": "سمك الدنيس الملكي (1 كجم)" },
+    "price": 115,
+    "category": { "fr": "La Marée Fraîche", "en": "Fresh Catch", "ar": "صيد اليوم الطازج" },
+    "description": { 
+      "fr": "Dorade entière, écaillée et vidée. Goût fin et délicat.",
+      "en": "Whole bream, scaled and gutted. Fine and delicate taste.",
+      "ar": "سمك دنيس كامل، مقشر ومنظف. مذاق فاخر وحساس."
+    },
+    "images": ["https://picsum.photos/seed/d1/600/400"],
+    "b2b": false
+  },
+  {
+    "id": 14,
+    "name": { "fr": "Poulpe Nettoyé (1kg)", "en": "Cleaned Octopus (1kg)", "ar": "أخطبوط منظف (1 كجم)" },
+    "price": 145,
+    "category": { "fr": "La Marée Fraîche", "en": "Fresh Catch", "ar": "صيد اليوم الطازج" },
+    "description": { 
+      "fr": "Poulpe de roche, attendri et nettoyé.",
+      "en": "Rock octopus, tenderized and cleaned.",
+      "ar": "أخطبوط صخري، مطرى ومنظف."
+    },
+    "images": ["https://picsum.photos/seed/o1/600/400"],
+    "b2b": false
+  },
+  {
     "id": 15,
     "name": { "fr": "Sardines Mzeouej (Plateau 1kg)", "en": "Mzeouej Sardines (1kg Tray)", "ar": "سردين مزوج (طبق 1 كجم)" },
     "price": 60,
@@ -63,5 +193,239 @@
     },
     "images": ["https://picsum.photos/seed/sm1/600/400"],
     "b2b": false
+  },
+  {
+    "id": 16,
+    "name": { "fr": "Boulettes de Poisson (Sardine)", "en": "Fish Meatballs (Sardine)", "ar": "كريات السمك (سردين)" },
+    "price": 75,
+    "category": { "fr": "La Cuisine de Khalti", "en": "Traditional Cooking", "ar": "مطبخ خالتي التقليدي" },
+    "description": { 
+      "fr": "Poisson haché aux épices, prêt pour un tagine tomate/poivrons.",
+      "en": "Minced fish with spices, ready for a tomato/pepper tagine.",
+      "ar": "سمك مفروم بالتوابل، جاهز لطاجين الطماطم والفلفل."
+    },
+    "images": ["https://picsum.photos/seed/fb1/600/400"],
+    "b2b": false
+  },
+  {
+    "id": 17,
+    "name": { "fr": "Tagine de Poisson du Jour", "en": "Fish Tagine of the Day", "ar": "طاجين سمك اليوم" },
+    "price": 95,
+    "category": { "fr": "La Cuisine de Khalti", "en": "Traditional Cooking", "ar": "مطبخ خالتي التقليدي" },
+    "description": { 
+      "fr": "Tagine préparé avec légumes de saison et poisson blanc frais.",
+      "en": "Tagine prepared with seasonal vegetables and fresh white fish.",
+      "ar": "طاجين محضر بالخضروات الموسمية والسمك الأبيض الطازج."
+    },
+    "images": ["https://picsum.photos/seed/t1/600/400"],
+    "b2b": false
+  },
+  {
+    "id": 18,
+    "name": { "fr": "Chermoula Maison Signature (250g)", "en": "Signature House Chermoula (250g)", "ar": "شرمولة المنزل (250 غرام)" },
+    "price": 45,
+    "category": { "fr": "Épicerie Marine", "en": "Marine Grocery", "ar": "بقالة بحرية" },
+    "description": { 
+      "fr": "Le secret de nos plats. Marinade ail, persil, coriandre et épices.",
+      "en": "The secret of our dishes. Garlic, parsley, coriander and spice marinade.",
+      "ar": "سر أطباقنا. تتبيلة الثوم والبقدونس والكزبرة والتوابل."
+    },
+    "images": ["https://picsum.photos/seed/ch1/600/400"],
+    "b2b": true
+  },
+  {
+    "id": 19,
+    "name": { "fr": "Harissa Maison (150g)", "en": "Homemade Harissa (150g)", "ar": "هريسة منزلية (150 غرام)" },
+    "price": 30,
+    "category": { "fr": "Épicerie Marine", "en": "Marine Grocery", "ar": "بقالة بحرية" },
+    "description": { 
+      "fr": "Pâte de piments fumés et épices. Relevée juste comme il faut.",
+      "en": "Smoked chili paste and spices. Spiced just right.",
+      "ar": "عجينة الفلفل المدخن والتوابل. حارة بشكل مثالي."
+    },
+    "images": ["https://picsum.photos/seed/h1/600/400"],
+    "b2b": false
+  },
+  {
+    "id": 20,
+    "name": { "fr": "Filets de Poisson Marinés (500g)", "en": "Marinated Fish Fillets (500g)", "ar": "شرائح سمك متبلة (500 غرام)" },
+    "price": 80,
+    "category": { "fr": "Ready-to-Cook", "en": "Ready-to-Cook", "ar": "جاهز للطهي" },
+    "description": { 
+      "fr": "Filets de poisson blanc marinés dans our chermoula. Prêts pour la poêle.",
+      "en": "White fish fillets marinated in our chermoula. Ready for the pan.",
+      "ar": "شرائح سمك أبيض متبلة في الشرمولة الخاصة بنا. جاهزة للمقلاة."
+    },
+    "images": ["https://picsum.photos/seed/ff1/600/400"],
+    "b2b": false
+  },
+  {
+    "id": 21,
+    "name": { "fr": "Paella Seafood Individual", "en": "Individual Seafood Paella", "ar": "بايلة فواكه البحر فردية" },
+    "price": 85,
+    "category": { "fr": "La Cuisine de Khalti", "en": "Traditional Cooking", "ar": "مطبخ خالتي التقليدي" },
+    "description": { 
+      "fr": "Riz safrané, crevettes, calamars et moules fraîches.",
+      "en": "Saffron rice, shrimp, squid and fresh mussels.",
+      "ar": "أرز بالزعفران، قمرون، حبار وبلح البحر الطازج."
+    },
+    "images": ["https://picsum.photos/seed/pa1/600/400"],
+    "b2b": false
+  },
+  {
+    "id": 22,
+    "name": { "fr": "Gambas Grillées (Portion)", "en": "Grilled King Prawns (Portion)", "ar": "قامباس مشوي (حصة)" },
+    "price": 180,
+    "category": { "fr": "La Cuisine de Khalti", "en": "Traditional Cooking", "ar": "مطبخ خالتي التقليدي" },
+    "description": { 
+      "fr": "8 pièces de gambas royales grillées au sel de mer et citron.",
+      "en": "8 pieces of king prawns grilled with sea salt and lemon.",
+      "ar": "8 قطع من القامباس الملكي المشوي بملح البحر والليمون."
+    },
+    "images": ["https://picsum.photos/seed/g1/600/400"],
+    "b2b": false
+  },
+  {
+    "id": 23,
+    "name": { "fr": "Moules Marinières (1kg)", "en": "Mussels Marinara (1kg)", "ar": "بلح البحر مارينير (1 كجم)" },
+    "price": 90,
+    "category": { "fr": "La Cuisine de Khalti", "en": "Traditional Cooking", "ar": "مطبخ خالتي التقليدي" },
+    "description": { 
+      "fr": "Moules fraîches cuisinées à la marocaine (persillade et citron).",
+      "en": "Fresh mussels cooked Moroccan style (parsley and lemon).",
+      "ar": "بلح البحر الطازج مطهو على الطريقة المغربية (بقدونس وليمون)."
+    },
+    "images": ["https://picsum.photos/seed/mo1/600/400"],
+    "b2b": false
+  },
+  {
+    "id": 24,
+    "name": { "fr": "Salade de Poulpe à la Marocaine", "en": "Moroccan Octopus Salad", "ar": "سلطة أخطبوط مغربية" },
+    "price": 65,
+    "category": { "fr": "La Cuisine de Khalti", "en": "Traditional Cooking", "ar": "مطبخ خالتي التقليدي" },
+    "description": { 
+      "fr": "Poulpe tendre, tomates, oignons et cumin. Fraîcheur garantie.",
+      "en": "Tender octopus, tomatoes, onions and cumin. Freshness guaranteed.",
+      "ar": "أخطبوط طري، طماطم، بصل وكمون. نضارة مضمونة."
+    },
+    "images": ["https://picsum.photos/seed/os1/600/400"],
+    "b2b": false
+  },
+  {
+    "id": 25,
+    "name": { "fr": "Poisson Farci au Four (L)", "en": "Baked Stuffed Fish (L)", "ar": "سمك محشو في الفرن (L)" },
+    "price": 280,
+    "category": { "fr": "La Cuisine de Khalti", "en": "Traditional Cooking", "ar": "مطبخ خالتي التقليدي" },
+    "description": { 
+      "fr": "Une belle dorade ou loup farci au vermicelle et champignons. Idéal pour 3-4 pers.",
+      "en": "A beautiful bream or sea bass stuffed with vermicelli and mushrooms. Ideal for 3-4 pers.",
+      "ar": "سمك دنيس أو قاروص محشو بالشعيرية والفطر. مثالي لـ 3-4 أشخاص."
+    },
+    "images": ["https://picsum.photos/seed/pf1/600/400"],
+    "b2b": false
+  },
+  {
+    "id": 26,
+    "name": { "fr": "Briouates Congelées (24 pcs)", "en": "Frozen Briouates (24 pcs)", "ar": "بريوات مجمدة (24 قطعة)" },
+    "price": 200,
+    "category": { "fr": "B2B & Stockage", "en": "B2B & Storage", "ar": "توريد الشركات والتخزين" },
+    "description": { 
+      "fr": "Pack économique de briouates prêtes à être frites. Pour professionnels.",
+      "en": "Economy pack of briouates ready to be fried. For professionals.",
+      "ar": "علبة اقتصادية من البريوات الجاهزة للقلي. للمحترفين."
+    },
+    "images": ["https://picsum.photos/seed/fb1/600/400"],
+    "b2b": true
+  },
+  {
+    "id": 27,
+    "name": { "fr": "Mix de Poisson pour Soupe (500g)", "en": "Fish Mix for Soup (500g)", "ar": "تشكيلة سمك للحساء (500 غرام)" },
+    "price": 55,
+    "category": { "fr": "Ready-to-Cook", "en": "Ready-to-Cook", "ar": "جاهز للطهي" },
+    "description": { 
+      "fr": "Morceaux de poisson blanc, crevettes et calamars pour une soupe parfaite.",
+      "en": "Chunks of white fish, shrimp and squid for a perfect soup.",
+      "ar": "قطع سمك أبيض وقمرون وحبار لحساء مثالي."
+    },
+    "images": ["https://picsum.photos/seed/sm1/600/400"],
+    "b2b": true
+  },
+  {
+    "id": 28,
+    "name": { "fr": "Nems au Saumon (Douzaine)", "en": "Salmon Rolls (Dozen)", "ar": "لفائف السلمون (بالدزينة)" },
+    "price": 160,
+    "category": { "fr": "Finger Food & Traiteur", "en": "Finger Food & Catering", "ar": "أطعمة الأصابع والحفلات" },
+    "description": { 
+      "fr": "Une variante premium au saumon frais et fromage frais.",
+      "en": "A premium variant with fresh salmon and cream cheese.",
+      "ar": "بديل فاخر بالسلمون الطازج والجبن الكريمي."
+    },
+    "images": ["https://picsum.photos/seed/sn1/600/400"],
+    "b2b": false
+  },
+  {
+    "id": 29,
+    "name": { "fr": "Livrable B2B : Filet de Merlan (5kg+)", "en": "B2B Delivery: Whiting Fillet (5kg+)", "ar": "توريد الشركات: شرائح ميرلا (5 كجم+)" },
+    "price": 400,
+    "category": { "fr": "B2B & Stockage", "en": "B2B & Storage", "ar": "توريد الشركات والتخزين" },
+    "description": { 
+      "fr": "Prix spécial pour cafés et restaurants. Filets propres et calibrés.",
+      "en": "Special price for cafes and restaurants. Clean and calibrated fillets.",
+      "ar": "سعر خاص للمقاهي والمطاعم. شرائح نظيفة وموزونة."
+    },
+    "images": ["https://picsum.photos/seed/b2b1/600/400"],
+    "b2b": true
+  },
+  {
+    "id": 30,
+    "name": { "fr": "Plateau Réception 'Mariage' (Sur Mesure)", "en": "'Wedding' Reception Platter (Custom)", "ar": "طبق حفلات 'الزفاف' (حسب الطلب)" },
+    "price": 1200,
+    "category": { "fr": "B2B & Stockage", "en": "B2B & Storage", "ar": "توريد الشركات والتخزين" },
+    "description": { 
+      "fr": "Le meilleur de l'océan pour vos grands événements. Contactez-nous.",
+      "en": "The best of the ocean for your big events. Contact us.",
+      "ar": "أفضل ما في المحيط لمناسباتكم الكبرى. اتصلوا بنا."
+    },
+    "images": ["https://picsum.photos/seed/w1/600/400"],
+    "b2b": true
+  },
+  {
+    "id": 31,
+    "name": { "fr": "Crevettes Gambas B2B (2kg+)", "en": "B2B King Prawns (2kg+)", "ar": "قامباس للشركات (2 كجم+)" },
+    "price": 320,
+    "category": { "fr": "B2B & Stockage", "en": "B2B & Storage", "ar": "توريد الشركات والتخزين" },
+    "description": { 
+      "fr": "Vente en gros pour restaurateurs. Fraîcheur garantie.",
+      "en": "Wholesale for restaurateurs. Freshness guaranteed.",
+      "ar": "البيع بالجملة للمطاعم. نضارة مضمونة."
+    },
+    "images": ["https://picsum.photos/seed/bg1/600/400"],
+    "b2b": true
+  },
+  {
+    "id": 32,
+    "name": { "fr": "Kit Paella pour 4 Personnes", "en": "Paella Kit for 4 People", "ar": "طقم بايلة لـ 4 أشخاص" },
+    "price": 150,
+    "category": { "fr": "Ready-to-Cook", "en": "Ready-to-Cook", "ar": "جاهز للطهي" },
+    "description": { 
+      "fr": "Riz, épices et mix de fruits de mer nettoyés. Cuisinez comme un chef.",
+      "en": "Rice, spices and cleaned seafood mix. Cook like a chef.",
+      "ar": "أرز، توابل وتشكيلة فواكه بحر منظفة. اطبخ كالمحترفين."
+    },
+    "images": ["https://picsum.photos/seed/kp1/600/400"],
+    "b2b": false
+  },
+  {
+    "id": 33,
+    "name": { "fr": "Abonnement Hebdomadaire 'Filet Frais'", "en": "Weekly 'Fresh Fillet' Subscription", "ar": "اشتراك أسبوعي 'شريحة طازجة'" },
+    "price": 300,
+    "category": { "fr": "B2B & Stockage", "en": "B2B & Storage", "ar": "توريد الشركات والتخزين" },
+    "description": { 
+      "fr": "Recevez 3kg de filets de saison chaque semaine à votre porte.",
+      "en": "Receive 3kg of seasonal fillets every week at your door.",
+      "ar": "احصل على 3 كجم من الشرائح الموسمية كل أسبوع عند باب منزلك."
+    },
+    "images": ["https://picsum.photos/seed/sub1/600/400"],
+    "b2b": true
   }
 ]
