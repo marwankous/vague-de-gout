@@ -13,6 +13,7 @@ module.exports = function(eleventyConfig) {
     templateFormats: ["njk", "md", "html"],
     markdownTemplateEngine: "njk",
     htmlTemplateEngine: "njk",
-    dataTemplateEngine: "njk"
+    dataTemplateEngine: "njk",
+    pathPrefix: "/vague-de-gout/"
   };
 };

@@ -28,7 +28,7 @@ title: Accueil - Traiteur de la Mer
         {% if item.category == category %}
           <article class="product-card">
             <div class="image-gallery">
-              <img src="{{ item.images[0] }}" alt="{{ item.name }}" loading="lazy">
+              <img src="{{ item.images[0] | url }}" alt="{{ item.name }}" loading="lazy">
             </div>
             <div class="product-info">
               <h3 class="product-name">{{ item.name }}</h3>
