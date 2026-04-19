@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title }} | Vague de Goût - Traiteur de la Mer</title>
+  <meta name="description" content="Vague de Goût - Votre traiteur spécialisé en produits de la mer. Bastilas premium, fruits de mer frais et solutions B2B.">
+
+  <!-- Open Graph / Facebook / WhatsApp -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://vaguedegout.ma/">
+  <meta property="og:title" content="Vague de Goût - Traiteur de la Mer d'Exception">
+  <meta property="og:description" content="Découvrez nos bastilas royales, notre marée fraîche et nos solutions B2B pour restaurateurs.">
+  <meta property="og:image" content="https://vaguedegout.ma/assets/images/og-image.jpg">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://vaguedegout.ma/">
+  <meta property="twitter:title" content="Vague de Goût - Traiteur de la Mer">
+  <meta property="twitter:description" content="Traiteur spécialisé en produits de la mer d'exception.">
+  <meta property="twitter:image" content="https://vaguedegout.ma/assets/images/og-image.jpg">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="logo">Vague de Goût</div>
+    <nav>
+      <a href="https://instagram.com/vaguedegout" class="instagram-link" target="_blank">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-right: 5px;"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+        Instagram
+      </a>
+    </nav>
+  </header>
+
+  {{ content | safe }}
+
+  <section class="b2b-section">
+    <h2>Solutions B2B</h2>
+    <p>Nous accompagnons les cafés, restaurants et hôtels dans leur approvisionnement en produits de la mer d'exception. Découvrez nos tarifs préférentiels et notre service de livraison quotidien.</p>
+    <a href="mailto:contact@vaguedegout.ma?subject=Demande de devis B2B" class="quote-btn">Demander un Devis</a>
+  </section>
+
+  <footer>
+    <div class="footer-info">
+      <p><strong>Vague de Goût</strong></p>
+      <p>Basé au Maroc</p>
+      <p>Email: contact@vaguedegout.ma</p>
+      <p>WhatsApp: +212 6XX XX XX XX</p>
+    </div>
+    <p>&copy; 2026 Vague de Goût. Tous droits réservés.</p>
+  </footer>
+
+  <a href="https://wa.me/2126XXXXXXXX?text=Bonjour%20Vague%20de%20Goût,%20j'aimerais%20avoir%20plus%20d'informations%20sur%20vos%20produits." class="sticky-whatsapp" target="_blank" aria-label="Contactez-nous sur WhatsApp">
+    <span>💬</span>
+  </a>
+</body>
+</html>

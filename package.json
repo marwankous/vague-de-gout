@@ -1,0 +1,22 @@
+{
+  "name": "vague-de-gout",
+  "version": "1.0.0",
+  "description": "Professional seafood traiteur brand site for Vague de Goût",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "keywords": [
+    "11ty",
+    "eleventy",
+    "traiteur",
+    "seafood",
+    "vague-de-gout"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}
