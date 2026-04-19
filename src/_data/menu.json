@@ -185,7 +185,7 @@
     "id": 15,
     "name": { "fr": "Sardines Mzeouej (Plateau 1kg)", "en": "Mzeouej Sardines (1kg Tray)", "ar": "سردين مزوج (طبق 1 كجم)" },
     "price": 60,
-    "category": { "fr": "La Cuisine de Khalti", "en": "Traditional Cooking", "ar": "مطبخ خالتي التقليدي" },
+    "category": { "fr": "Les Saveurs Traditionnelles", "en": "Traditional Specialties", "ar": "الأطباق التقليدية" },
     "description": { 
       "fr": "Sardines farcies à la chermoula, prêtes à frire ou à cuire.",
       "en": "Sardines stuffed with chermoula, ready to fry or cook.",
@@ -198,7 +198,7 @@
     "id": 16,
     "name": { "fr": "Boulettes de Poisson (Sardine)", "en": "Fish Meatballs (Sardine)", "ar": "كريات السمك (سردين)" },
     "price": 75,
-    "category": { "fr": "La Cuisine de Khalti", "en": "Traditional Cooking", "ar": "مطبخ خالتي التقليدي" },
+    "category": { "fr": "Les Saveurs Traditionnelles", "en": "Traditional Specialties", "ar": "الأطباق التقليدية" },
     "description": { 
       "fr": "Poisson haché aux épices, prêt pour un tagine tomate/poivrons.",
       "en": "Minced fish with spices, ready for a tomato/pepper tagine.",
@@ -211,7 +211,7 @@
     "id": 17,
     "name": { "fr": "Tagine de Poisson du Jour", "en": "Fish Tagine of the Day", "ar": "طاجين سمك اليوم" },
     "price": 95,
-    "category": { "fr": "La Cuisine de Khalti", "en": "Traditional Cooking", "ar": "مطبخ خالتي التقليدي" },
+    "category": { "fr": "Les Saveurs Traditionnelles", "en": "Traditional Specialties", "ar": "الأطباق التقليدية" },
     "description": { 
       "fr": "Tagine préparé avec légumes de saison et poisson blanc frais.",
       "en": "Tagine prepared with seasonal vegetables and fresh white fish.",
@@ -263,7 +263,7 @@
     "id": 21,
     "name": { "fr": "Paella Seafood Individual", "en": "Individual Seafood Paella", "ar": "بايلة فواكه البحر فردية" },
     "price": 85,
-    "category": { "fr": "La Cuisine de Khalti", "en": "Traditional Cooking", "ar": "مطبخ خالتي التقليدي" },
+    "category": { "fr": "Les Saveurs Traditionnelles", "en": "Traditional Specialties", "ar": "الأطباق التقليدية" },
     "description": { 
       "fr": "Riz safrané, crevettes, calamars et moules fraîches.",
       "en": "Saffron rice, shrimp, squid and fresh mussels.",
@@ -276,7 +276,7 @@
     "id": 22,
     "name": { "fr": "Gambas Grillées (Portion)", "en": "Grilled King Prawns (Portion)", "ar": "قامباس مشوي (حصة)" },
     "price": 180,
-    "category": { "fr": "La Cuisine de Khalti", "en": "Traditional Cooking", "ar": "مطبخ خالتي التقليدي" },
+    "category": { "fr": "Les Saveurs Traditionnelles", "en": "Traditional Specialties", "ar": "الأطباق التقليدية" },
     "description": { 
       "fr": "8 pièces de gambas royales grillées au sel de mer et citron.",
       "en": "8 pieces of king prawns grilled with sea salt and lemon.",
@@ -289,7 +289,7 @@
     "id": 23,
     "name": { "fr": "Moules Marinières (1kg)", "en": "Mussels Marinara (1kg)", "ar": "بلح البحر مارينير (1 كجم)" },
     "price": 90,
-    "category": { "fr": "La Cuisine de Khalti", "en": "Traditional Cooking", "ar": "مطبخ خالتي التقليدي" },
+    "category": { "fr": "Les Saveurs Traditionnelles", "en": "Traditional Specialties", "ar": "الأطباق التقليدية" },
     "description": { 
       "fr": "Moules fraîches cuisinées à la marocaine (persillade et citron).",
       "en": "Fresh mussels cooked Moroccan style (parsley and lemon).",
@@ -302,7 +302,7 @@
     "id": 24,
     "name": { "fr": "Salade de Poulpe à la Marocaine", "en": "Moroccan Octopus Salad", "ar": "سلطة أخطبوط مغربية" },
     "price": 65,
-    "category": { "fr": "La Cuisine de Khalti", "en": "Traditional Cooking", "ar": "مطبخ خالتي التقليدي" },
+    "category": { "fr": "Les Saveurs Traditionnelles", "en": "Traditional Specialties", "ar": "الأطباق التقليدية" },
     "description": { 
       "fr": "Poulpe tendre, tomates, oignons et cumin. Fraîcheur garantie.",
       "en": "Tender octopus, tomatoes, onions and cumin. Freshness guaranteed.",
@@ -315,7 +315,7 @@
     "id": 25,
     "name": { "fr": "Poisson Farci au Four (L)", "en": "Baked Stuffed Fish (L)", "ar": "سمك محشو في الفرن (L)" },
     "price": 280,
-    "category": { "fr": "La Cuisine de Khalti", "en": "Traditional Cooking", "ar": "مطبخ خالتي التقليدي" },
+    "category": { "fr": "Les Saveurs Traditionnelles", "en": "Traditional Specialties", "ar": "الأطباق التقليدية" },
     "description": { 
       "fr": "Une belle dorade ou loup farci au vermicelle et champignons. Idéal pour 3-4 pers.",
       "en": "A beautiful bream or sea bass stuffed with vermicelli and mushrooms. Ideal for 3-4 pers.",
