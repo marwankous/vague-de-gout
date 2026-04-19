@@ -33,7 +33,7 @@ h1, h2, h3 {
 header {
   background-color: var(--primary);
   color: var(--secondary);
-  padding: 1rem 2rem;
+  padding: 0.5rem 1rem; /* Reduced padding to bring logo closer to edges */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -47,6 +47,7 @@ header {
   display: flex;
   align-items: center;
   gap: 1.5rem;
+  padding-right: 0.5rem;
 }
 
 .lang-switcher {
@@ -78,7 +79,7 @@ header {
 }
 
 .logo-img {
-  height: 60px; /* Slightly larger for better visibility */
+  height: 80px; /* Increased size as requested */
   width: auto;
 }
 
