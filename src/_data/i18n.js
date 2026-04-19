@@ -2,7 +2,7 @@ module.exports = {
   hero_title: {
     fr: "Vague de Goût",
     en: "Vague de Goût",
-    ar: "فاج دو غو"
+    ar: "Vague de Goût"
   },
   hero_desc: {
     fr: "L'excellence artisanale des produits de la mer.",
