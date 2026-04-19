@@ -328,7 +328,7 @@
     "id": 26,
     "name": { "fr": "Briouates Congelées (24 pcs)", "en": "Frozen Briouates (24 pcs)", "ar": "بريوات مجمدة (24 قطعة)" },
     "price": 200,
-    "category": { "fr": "B2B & Stockage", "en": "B2B & Storage", "ar": "توريد الشركات والتخزين" },
+    "category": { "fr": "Services Professionnels & Stockage", "en": "Professional Services & Storage", "ar": "خدمات المهنيين والتخزين" },
     "description": { 
       "fr": "Pack économique de briouates prêtes à être frites. Pour professionnels.",
       "en": "Economy pack of briouates ready to be fried. For professionals.",
@@ -367,7 +367,7 @@
     "id": 29,
     "name": { "fr": "Livrable B2B : Filet de Merlan (5kg+)", "en": "B2B Delivery: Whiting Fillet (5kg+)", "ar": "توريد الشركات: شرائح ميرلا (5 كجم+)" },
     "price": 400,
-    "category": { "fr": "B2B & Stockage", "en": "B2B & Storage", "ar": "توريد الشركات والتخزين" },
+    "category": { "fr": "Services Professionnels & Stockage", "en": "Professional Services & Storage", "ar": "خدمات المهنيين والتخزين" },
     "description": { 
       "fr": "Prix spécial pour cafés et restaurants. Filets propres et calibrés.",
       "en": "Special price for cafes and restaurants. Clean and calibrated fillets.",
@@ -380,7 +380,7 @@
     "id": 30,
     "name": { "fr": "Plateau Réception 'Mariage' (Sur Mesure)", "en": "'Wedding' Reception Platter (Custom)", "ar": "طبق حفلات 'الزفاف' (حسب الطلب)" },
     "price": 1200,
-    "category": { "fr": "B2B & Stockage", "en": "B2B & Storage", "ar": "توريد الشركات والتخزين" },
+    "category": { "fr": "Services Professionnels & Stockage", "en": "Professional Services & Storage", "ar": "خدمات المهنيين والتخزين" },
     "description": { 
       "fr": "Le meilleur de l'océan pour vos grands événements. Contactez-nous.",
       "en": "The best of the ocean for your big events. Contact us.",
@@ -393,7 +393,7 @@
     "id": 31,
     "name": { "fr": "Crevettes Gambas B2B (2kg+)", "en": "B2B King Prawns (2kg+)", "ar": "قامباس للشركات (2 كجم+)" },
     "price": 320,
-    "category": { "fr": "B2B & Stockage", "en": "B2B & Storage", "ar": "توريد الشركات والتخزين" },
+    "category": { "fr": "Services Professionnels & Stockage", "en": "Professional Services & Storage", "ar": "خدمات المهنيين والتخزين" },
     "description": { 
       "fr": "Vente en gros pour restaurateurs. Fraîcheur garantie.",
       "en": "Wholesale for restaurateurs. Freshness guaranteed.",
@@ -419,7 +419,7 @@
     "id": 33,
     "name": { "fr": "Abonnement Hebdomadaire 'Filet Frais'", "en": "Weekly 'Fresh Fillet' Subscription", "ar": "اشتراك أسبوعي 'شريحة طازجة'" },
     "price": 300,
-    "category": { "fr": "B2B & Stockage", "en": "B2B & Storage", "ar": "توريد الشركات والتخزين" },
+    "category": { "fr": "Services Professionnels & Stockage", "en": "Professional Services & Storage", "ar": "خدمات المهنيين والتخزين" },
     "description": { 
       "fr": "Recevez 3kg de filets de saison chaque semaine à votre porte.",
       "en": "Receive 3kg of seasonal fillets every week at your door.",

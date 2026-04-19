@@ -10,9 +10,9 @@ module.exports = {
     ar: "التميز الحرفي في المنتجات البحرية."
   },
   hero_b2b: {
-    fr: "Solutions sur mesure pour professionnels & particuliers.",
-    en: "Tailored solutions for professionals & individuals.",
-    ar: "حلول مخصصة للمهنيين والأفراد."
+    fr: "Solutions d'exception pour particuliers et professionnels.",
+    en: "Exceptional solutions for individuals and professionals.",
+    ar: "حلول استثنائية للأفراد والمهنيين."
   },
   commander: {
     fr: "Commander via WhatsApp",
@@ -20,9 +20,9 @@ module.exports = {
     ar: "طلب عبر الواتساب"
   },
   b2b_title: {
-    fr: "Solutions B2B",
-    en: "B2B Solutions",
-    ar: "حلول الشركات (B2B)"
+    fr: "Services Professionnels",
+    en: "Professional Services",
+    ar: "خدمات المهنيين"
   },
   b2b_desc: {
     fr: "Nous accompagnons les cafés, restaurants et hôtels dans leur approvisionnement en produits de la mer d'exception. Découvrez nos tarifs préférentiels et notre service de livraison quotidien.",
