@@ -18,8 +18,14 @@ title: الرئيسية - تموين المأكولات البحرية
     "الأطباق التقليدية"
   ] %}
 
+  <nav class="category-nav">
+    {% for category in categories %}
+      <a href="#cat-{{ loop.index }}" class="category-chip">{{ category }}</a>
+    {% endfor %}
+  </nav>
+
   {% for category in categories %}
-  <section class="category-section">
+  <section id="cat-{{ loop.index }}" class="category-section">
     <h2 class="category-title">{{ category }}</h2>
     <div class="product-grid">
       {% for item in menu %}

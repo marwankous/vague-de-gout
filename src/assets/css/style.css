@@ -8,6 +8,10 @@
   --font-display: 'Playfair Display', serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -293,4 +297,34 @@ footer {
   .product-grid {
     grid-template-columns: 1fr;
   }
+}
+
+/* Category Navigation */
+.category-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.8rem;
+  margin-bottom: 3rem;
+  padding: 0 1rem;
+}
+
+.category-chip {
+  padding: 0.6rem 1.2rem;
+  background-color: white;
+  color: var(--primary);
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+  border: 1px solid var(--light-gray);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.category-chip:hover {
+  background-color: var(--primary);
+  color: var(--secondary);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
