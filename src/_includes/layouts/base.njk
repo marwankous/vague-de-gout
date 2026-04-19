@@ -81,8 +81,32 @@
     <p>&copy; 2026 {{ i18n.hero_title[lang] }}. {{ i18n.footer_rights[lang] }}</p>
   </footer>
 
+  <!-- Floating Buttons -->
   <a href="https://wa.me/212636925874?text={{ i18n.whatsapp_info[lang] | urlencode }}" class="sticky-whatsapp" target="_blank" aria-label="WhatsApp">
     <span>💬</span>
   </a>
+
+  <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+    ↑
+  </button>
+
+  <script>
+    const scrollTopBtn = document.getElementById("scrollTop");
+    
+    window.onscroll = function() {
+      if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+        scrollTopBtn.classList.add("show");
+      } else {
+        scrollTopBtn.classList.remove("show");
+      }
+    };
+
+    scrollTopBtn.onclick = function() {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+      });
+    };
+  </script>
 </body>
 </html>

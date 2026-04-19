@@ -289,6 +289,51 @@ footer {
   transform: scale(1.1);
 }
 
+.scroll-top {
+  position: fixed;
+  bottom: 2rem;
+  left: 2rem;
+  background-color: var(--primary);
+  color: var(--accent);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+  z-index: 1001;
+  text-decoration: none;
+  font-size: 1.5rem;
+  transition: transform 0.3s, opacity 0.3s, visibility 0.3s;
+  opacity: 0;
+  visibility: hidden;
+  border: 1px solid var(--accent);
+  cursor: pointer;
+}
+
+.scroll-top.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.scroll-top:hover {
+  transform: translateY(-5px);
+  background-color: var(--accent);
+  color: var(--primary);
+}
+
+/* RTL adjustment for Scroll Top */
+[dir="rtl"] .scroll-top {
+  left: auto;
+  right: 2rem;
+}
+
+[dir="rtl"] .sticky-whatsapp {
+  right: auto;
+  left: 2rem;
+}
+
 /* Mobile responsive adjustments */
 @media (max-width: 768px) {
   .hero h1 {
