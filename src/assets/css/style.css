@@ -45,9 +45,8 @@ header {
 }
 
 .logo-img {
-  height: 50px;
+  height: 60px; /* Slightly larger for better visibility */
   width: auto;
-  filter: brightness(0) invert(1); /* This makes the SVG white to match our header */
 }
 
 .instagram-link {
