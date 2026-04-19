@@ -93,20 +93,20 @@
   <script>
     const scrollTopBtn = document.getElementById("scrollTop");
     
-    window.onscroll = function() {
-      if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+    window.addEventListener("scroll", () => {
+      if (window.pageYOffset > 300) {
         scrollTopBtn.classList.add("show");
       } else {
         scrollTopBtn.classList.remove("show");
       }
-    };
+    });
 
-    scrollTopBtn.onclick = function() {
+    scrollTopBtn.addEventListener("click", () => {
       window.scrollTo({
         top: 0,
         behavior: "smooth"
       });
-    };
+    });
   </script>
 </body>
 </html>
