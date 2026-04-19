@@ -1,49 +1,14 @@
----
-layout: layouts/base.njk
-title: Accueil - Traiteur de la Mer
----
-
-<main>
-  <section class="hero">
-    <h1>Vague de Goût</h1>
-    <p>L'excellence artisanale des produits de la mer.</p>
-    <p class="hero-b2b">Solutions sur mesure pour professionnels & particuliers.</p>
-  </section>
-
-  {% set categories = [
-    "Grandes Bastilas",
-    "La Marée Fraîche",
-    "Finger Food & Traiteur",
-    "La Cuisine de Khalti",
-    "Ready-to-Cook",
-    "Épicerie Marine",
-    "B2B & Stockage"
-  ] %}
-
-  {% for category in categories %}
-  <section class="category-section">
-    <h2 class="category-title">{{ category }}</h2>
-    <div class="product-grid">
-      {% for item in menu %}
-        {% if item.category == category %}
-          <article class="product-card">
-            <div class="image-gallery">
-              <img src="{{ item.images[0] | url }}" alt="{{ item.name }}" loading="lazy">
-            </div>
-            <div class="product-info">
-              <h3 class="product-name">{{ item.name }}</h3>
-              <p class="product-price">{{ item.price }} MAD</p>
-              <p class="product-description">{{ item.description }}</p>
-              <a href="https://wa.me/212636925874?text=Bonjour%20Vague%20de%20Goût,%20je%20souhaite%20commander%20:%20{{ item.name | urlencode }}%20({{ item.price }}%20MAD)" 
-                 class="whatsapp-btn" 
-                 target="_blank">
-                 Commander via WhatsApp
-              </a>
-            </div>
-          </article>
-        {% endif %}
-      {% endfor %}
-    </div>
-  </section>
-  {% endfor %}
-</main>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="refresh" content="0; url=/vague-de-gout/fr/">
+  <script type="text/javascript">
+    window.location.href = "/vague-de-gout/fr/"
+  </script>
+  <title>Vague de Goût</title>
+</head>
+<body>
+  <p>Redirection vers <a href="/vague-de-gout/fr/">la version française</a>...</p>
+</body>
+</html>

@@ -1,39 +1,45 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="{{ lang }}" dir="{{ 'rtl' if lang == 'ar' else 'ltr' }}">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ title }} | Vague de Goût - Traiteur de la Mer</title>
-  <meta name="description" content="Vague de Goût - Votre traiteur spécialisé en produits de la mer. Bastilas premium, fruits de mer frais et solutions B2B.">
+  <title>{{ title }} | Vague de Goût</title>
+  <meta name="description" content="{{ i18n.hero_desc[lang] }}">
 
-  <!-- Open Graph / Facebook / WhatsApp -->
+  <!-- Open Graph -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://vaguedegout.ma/">
-  <meta property="og:title" content="Vague de Goût - Traiteur de la Mer d'Exception">
-  <meta property="og:description" content="Découvrez nos bastilas royales, notre marée fraîche et nos solutions B2B pour restaurateurs.">
+  <meta property="og:title" content="Vague de Goût">
+  <meta property="og:description" content="{{ i18n.hero_desc[lang] }}">
   <meta property="og:image" content="{{ '/assets/images/og-image.jpg' | url }}">
 
-  <!-- Twitter -->
-  <meta property="twitter:card" content="summary_large_image">
-  <meta property="twitter:url" content="https://vaguedegout.ma/">
-  <meta property="twitter:title" content="Vague de Goût - Traiteur de la Mer">
-  <meta property="twitter:description" content="Traiteur spécialisé en produits de la mer d'exception.">
-  <meta property="twitter:image" content="{{ '/assets/images/og-image.jpg' | url }}">
   <link rel="icon" type="image/png" href="{{ '/favicon.png' | url }}">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | url }}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:ital,wght@0,700;1,700&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+  
+  {% if lang == 'ar' %}
+  <style>
+    body { font-family: 'Amiri', serif; }
+    .category-title { border-left: none; border-right: 5px solid var(--accent); padding-left: 0; padding-right: 1rem; }
+  </style>
+  {% endif %}
 </head>
 <body>
   <header>
     <div class="logo">
-      <img src="{{ '/assets/images/logo.svg' | url }}" alt="Vague de Goût" class="logo-img">
+      <a href="{{ '/' | url }}{{ lang }}/">
+        <img src="{{ '/assets/images/logo.svg' | url }}" alt="Vague de Goût" class="logo-img">
+      </a>
     </div>
-    <nav>
+    <nav class="nav-links">
+      <div class="lang-switcher">
+        <a href="{{ '/' | url }}fr/" class="{{ 'active' if lang == 'fr' }}">FR</a>
+        <a href="{{ '/' | url }}en/" class="{{ 'active' if lang == 'en' }}">EN</a>
+        <a href="{{ '/' | url }}ar/" class="{{ 'active' if lang == 'ar' }}">AR</a>
+      </div>
       <a href="https://instagram.com/vaguedegout" class="instagram-link" target="_blank">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-right: 5px;"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
-        Instagram
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
       </a>
     </nav>
   </header>
@@ -41,22 +47,22 @@
   {{ content | safe }}
 
   <section class="b2b-section">
-    <h2>Solutions B2B</h2>
-    <p>Nous accompagnons les cafés, restaurants et hôtels dans leur approvisionnement en produits de la mer d'exception. Découvrez nos tarifs préférentiels et notre service de livraison quotidien.</p>
-    <a href="mailto:vague.de.gout@gmail.com?subject=Demande de devis B2B" class="quote-btn">Demander un Devis</a>
+    <h2>{{ i18n.b2b_title[lang] }}</h2>
+    <p>{{ i18n.b2b_desc[lang] }}</p>
+    <a href="mailto:vague.de.gout@gmail.com?subject={{ i18n.quote_btn[lang] | urlencode }}" class="quote-btn">{{ i18n.quote_btn[lang] }}</a>
   </section>
 
   <footer>
     <div class="footer-info">
-      <p><strong>Vague de Goût</strong></p>
-      <p>Basé au Maroc</p>
+      <p><strong>{{ i18n.hero_title[lang] }}</strong></p>
+      <p>{{ i18n.footer_location[lang] }}</p>
       <p>Email: vague.de.gout@gmail.com</p>
       <p>WhatsApp: +212 636 92 58 74</p>
     </div>
-    <p>&copy; 2026 Vague de Goût. Tous droits réservés.</p>
+    <p>&copy; 2026 {{ i18n.hero_title[lang] }}. {{ i18n.footer_rights[lang] }}</p>
   </footer>
 
-  <a href="https://wa.me/212636925874?text=Bonjour%20Vague%20de%20Goût,%20j'aimerais%20avoir%20plus%20d'informations%20sur%20vos%20produits." class="sticky-whatsapp" target="_blank" aria-label="Contactez-nous sur WhatsApp">
+  <a href="https://wa.me/212636925874?text={{ i18n.whatsapp_info[lang] | urlencode }}" class="sticky-whatsapp" target="_blank" aria-label="WhatsApp">
     <span>💬</span>
   </a>
 </body>

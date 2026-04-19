@@ -1,299 +1,67 @@
 [
   {
     "id": 1,
-    "name": "Bastila Royale Fruits de Mer (L)",
+    "name": { "fr": "Bastila Royale Fruits de Mer (L)", "en": "Seafood Royal Bastila (L)", "ar": "بسطيلة ملكية بفواكه البحر (L)" },
     "price": 450,
-    "category": "Grandes Bastilas",
-    "description": "Format familial (6-8 pers). Crevettes royales, calamars, poisson blanc et vermicelles aux épices marocaines.",
-    "images": ["https://picsum.photos/seed/b1/600/400", "https://picsum.photos/seed/b2/600/400", "https://picsum.photos/seed/b3/600/400"],
+    "category": { "fr": "Grandes Bastilas", "en": "Large Bastilas", "ar": "بسطيلة كبيرة" },
+    "description": { 
+      "fr": "Format familial (6-8 pers). Crevettes royales, calamars, poisson blanc et vermicelles aux épices marocaines.", 
+      "en": "Family format (6-8 pers). King prawns, squid, white fish and vermicelli with Moroccan spices.",
+      "ar": "حجم عائلي (6-8 أشخاص). روبيان ملكي، حبار، سمك أبيض وشعيرية بالتوابل المغربية."
+    },
+    "images": ["https://picsum.photos/seed/b1/600/400"],
     "b2b": false
   },
   {
     "id": 2,
-    "name": "Bastila Fruits de Mer (XL)",
+    "name": { "fr": "Bastila Fruits de Mer (XL)", "en": "Seafood Bastila (XL)", "ar": "بسطيلة فواكه البحر (XL)" },
     "price": 650,
-    "category": "Grandes Bastilas",
-    "description": "Format réception (10-12 pers). Une pièce maîtresse richement garnie de produits de premier choix.",
-    "images": ["https://picsum.photos/seed/b4/600/400", "https://picsum.photos/seed/b5/600/400", "https://picsum.photos/seed/b6/600/400"],
+    "category": { "fr": "Grandes Bastilas", "en": "Large Bastilas", "ar": "بسطيلة كبيرة" },
+    "description": { 
+      "fr": "Format réception (10-12 pers). Une pièce maîtresse richement garnie de produits de premier choix.",
+      "en": "Reception format (10-12 pers). A masterpiece richly garnished with first choice products.",
+      "ar": "حجم الحفلات (10-12 شخصاً). قطعة مركزية غنية بمنتجات من الدرجة الأولى."
+    },
+    "images": ["https://picsum.photos/seed/b4/600/400"],
     "b2b": true
   },
   {
     "id": 3,
-    "name": "Mini-Bastillas Poisson (Douzaine)",
+    "name": { "fr": "Mini-Bastillas Poisson (Douzaine)", "en": "Mini Fish Bastillas (Dozen)", "ar": "ميني بسطيلة سمك (بالدزينة)" },
     "price": 180,
-    "category": "Finger Food & Traiteur",
-    "description": "12 pièces individuelles croustillantes. Idéal pour vos réceptions ou goûters dînatoires.",
-    "images": ["https://picsum.photos/seed/m1/600/400", "https://picsum.photos/seed/m2/600/400", "https://picsum.photos/seed/m3/600/400"],
+    "category": { "fr": "Finger Food & Traiteur", "en": "Finger Food & Catering", "ar": "أطعمة الأصابع والحفلات" },
+    "description": { 
+      "fr": "12 pièces individuelles croustillantes. Idéal pour vos réceptions.",
+      "en": "12 crispy individual pieces. Ideal for your receptions.",
+      "ar": "12 قطعة فردية مقرمشة. مثالية لحفلات الاستقبال الخاصة بكم."
+    },
+    "images": ["https://picsum.photos/seed/m1/600/400"],
     "b2b": true
-  },
-  {
-    "id": 4,
-    "name": "Briouates aux Crevettes (Douzaine)",
-    "price": 120,
-    "category": "Finger Food & Traiteur",
-    "description": "Triangles croustillants farcis aux crevettes roses et chermoula traditionnelle.",
-    "images": ["https://picsum.photos/seed/br1/600/400", "https://picsum.photos/seed/br2/600/400", "https://picsum.photos/seed/br3/600/400"],
-    "b2b": true
-  },
-  {
-    "id": 5,
-    "name": "Cigares au Calamar (Douzaine)",
-    "price": 130,
-    "category": "Finger Food & Traiteur",
-    "description": "Nems allongés farcis au calamar tendre et épices douces.",
-    "images": ["https://picsum.photos/seed/c1/600/400", "https://picsum.photos/seed/c2/600/400", "https://picsum.photos/seed/c3/600/400"],
-    "b2b": true
-  },
-  {
-    "id": 6,
-    "name": "Plateau Mixte 'Vague de Goût'",
-    "price": 250,
-    "category": "Finger Food & Traiteur",
-    "description": "Assortiment de 24 pièces : Mini-bastilas, Briouates et Cigares.",
-    "images": ["https://picsum.photos/seed/p1/600/400", "https://picsum.photos/seed/p2/600/400", "https://picsum.photos/seed/p3/600/400"],
-    "b2b": false
   },
   {
     "id": 7,
-    "name": "Sole de Plage Fraîche (1kg)",
+    "name": { "fr": "Sole de Plage Fraîche (1kg)", "en": "Fresh Beach Sole (1kg)", "ar": "سمك موسى طازج (1 كجم)" },
     "price": 140,
-    "category": "La Marée Fraîche",
-    "description": "Sole nettoyée et vidée, prête pour la cuisson. Pêche locale du jour.",
-    "images": ["https://picsum.photos/seed/s1/600/400", "https://picsum.photos/seed/s2/600/400", "https://picsum.photos/seed/s3/600/400"],
-    "b2b": false
-  },
-  {
-    "id": 8,
-    "name": "Crevettes Roses Nettoyées (1kg)",
-    "price": 110,
-    "category": "La Marée Fraîche",
-    "description": "Crevettes fraîches, décortiquées sur demande. Qualité premium.",
-    "images": ["https://picsum.photos/seed/sh1/600/400", "https://picsum.photos/seed/sh2/600/400", "https://picsum.photos/seed/sh3/600/400"],
-    "b2b": true
-  },
-  {
-    "id": 9,
-    "name": "Loup de Mer (Bar) (1kg)",
-    "price": 130,
-    "category": "La Marée Fraîche",
-    "description": "Bar sauvage parfait pour le four ou la croûte de sel.",
-    "images": ["https://picsum.photos/seed/l1/600/400", "https://picsum.photos/seed/l2/600/400", "https://picsum.photos/seed/l3/600/400"],
-    "b2b": false
-  },
-  {
-    "id": 10,
-    "name": "Espadon en Tranches (1kg)",
-    "price": 160,
-    "category": "La Marée Fraîche",
-    "description": "Steaks d'espadon frais, idéal pour la plancha ou le tagine.",
-    "images": ["https://picsum.photos/seed/e1/600/400", "https://picsum.photos/seed/e2/600/400", "https://picsum.photos/seed/e3/600/400"],
-    "b2b": false
-  },
-  {
-    "id": 11,
-    "name": "Merlan Fritier (1kg)",
-    "price": 85,
-    "category": "La Marée Fraîche",
-    "description": "Petits merlans parfaits pour une friture légère et croustillante.",
-    "images": ["https://picsum.photos/seed/m1/600/400", "https://picsum.photos/seed/m2/600/400", "https://picsum.photos/seed/m3/600/400"],
-    "b2b": false
-  },
-  {
-    "id": 12,
-    "name": "Calamar Rings (1kg)",
-    "price": 120,
-    "category": "La Marée Fraîche",
-    "description": "Anneaux de calamar frais, prêts pour la friture ou la paella.",
-    "images": ["https://picsum.photos/seed/cr1/600/400", "https://picsum.photos/seed/cr2/600/400", "https://picsum.photos/seed/cr3/600/400"],
-    "b2b": true
-  },
-  {
-    "id": 13,
-    "name": "Dorade Royale (1kg)",
-    "price": 115,
-    "category": "La Marée Fraîche",
-    "description": "Dorade entière, écaillée et vidée. Goût fin et délicat.",
-    "images": ["https://picsum.photos/seed/d1/600/400", "https://picsum.photos/seed/d2/600/400", "https://picsum.photos/seed/d3/600/400"],
-    "b2b": false
-  },
-  {
-    "id": 14,
-    "name": "Poulpe Nettoyé (1kg)",
-    "price": 145,
-    "category": "La Marée Fraîche",
-    "description": "Poulpe de roche, attendri et nettoyé.",
-    "images": ["https://picsum.photos/seed/o1/600/400", "https://picsum.photos/seed/o2/600/400", "https://picsum.photos/seed/o3/600/400"],
+    "category": { "fr": "La Marée Fraîche", "en": "Fresh Catch", "ar": "صيد اليوم الطازج" },
+    "description": { 
+      "fr": "Sole nettoyée et vidée, prête pour la cuisson. Pêche locale du jour.",
+      "en": "Sole cleaned and gutted, ready for cooking. Local catch of the day.",
+      "ar": "سمك موسى منظف وجاهز للطهي. صيد محلي لليوم."
+    },
+    "images": ["https://picsum.photos/seed/s1/600/400"],
     "b2b": false
   },
   {
     "id": 15,
-    "name": "Sardines Mzeouej (Plateau 1kg)",
+    "name": { "fr": "Sardines Mzeouej (Plateau 1kg)", "en": "Mzeouej Sardines (1kg Tray)", "ar": "سردين مزوج (طبق 1 كجم)" },
     "price": 60,
-    "category": "La Cuisine de Khalti",
-    "description": "Sardines farcies à la chermoula, prêtes à frire ou à cuire.",
-    "images": ["https://picsum.photos/seed/sm1/600/400", "https://picsum.photos/seed/sm2/600/400", "https://picsum.photos/seed/sm3/600/400"],
+    "category": { "fr": "La Cuisine de Khalti", "en": "Traditional Cooking", "ar": "مطبخ خالتي التقليدي" },
+    "description": { 
+      "fr": "Sardines farcies à la chermoula, prêtes à frire ou à cuire.",
+      "en": "Sardines stuffed with chermoula, ready to fry or cook.",
+      "ar": "سردين محشو بالشرمولة، جاهز للقلي أو الطهي."
+    },
+    "images": ["https://picsum.photos/seed/sm1/600/400"],
     "b2b": false
-  },
-  {
-    "id": 16,
-    "name": "Boulettes de Poisson (Sardine)",
-    "price": 75,
-    "category": "La Cuisine de Khalti",
-    "description": "Poisson haché aux épices, prêt pour un tagine tomate/poivrons.",
-    "images": ["https://picsum.photos/seed/fb1/600/400", "https://picsum.photos/seed/fb2/600/400", "https://picsum.photos/seed/fb3/600/400"],
-    "b2b": false
-  },
-  {
-    "id": 17,
-    "name": "Tagine de Poisson du Jour",
-    "price": 95,
-    "category": "La Cuisine de Khalti",
-    "description": "Tagine préparé avec légumes de saison et poisson blanc frais.",
-    "images": ["https://picsum.photos/seed/t1/600/400", "https://picsum.photos/seed/t2/600/400", "https://picsum.photos/seed/t3/600/400"],
-    "b2b": false
-  },
-  {
-    "id": 18,
-    "name": "Chermoula Maison Signature (250g)",
-    "price": 45,
-    "category": "Épicerie Marine",
-    "description": "Le secret de nos plats. Marinade ail, persil, coriandre et épices.",
-    "images": ["https://picsum.photos/seed/ch1/600/400", "https://picsum.photos/seed/ch2/600/400", "https://picsum.photos/seed/ch3/600/400"],
-    "b2b": true
-  },
-  {
-    "id": 19,
-    "name": "Harissa Maison (150g)",
-    "price": 30,
-    "category": "Épicerie Marine",
-    "description": "Pâte de piments fumés et épices. Relevée juste comme il faut.",
-    "images": ["https://picsum.photos/seed/h1/600/400", "https://picsum.photos/seed/h2/600/400", "https://picsum.photos/seed/h3/600/400"],
-    "b2b": false
-  },
-  {
-    "id": 20,
-    "name": "Filets de Poisson Marinés (500g)",
-    "price": 80,
-    "category": "Ready-to-Cook",
-    "description": "Filets de poisson blanc marinés dans our chermoula. Prêts pour la poêle.",
-    "images": ["https://picsum.photos/seed/ff1/600/400", "https://picsum.photos/seed/ff2/600/400", "https://picsum.photos/seed/ff3/600/400"],
-    "b2b": false
-  },
-  {
-    "id": 21,
-    "name": "Paella Seafood Individual",
-    "price": 85,
-    "category": "La Cuisine de Khalti",
-    "description": "Riz safrané, crevettes, calamars et moules fraîches.",
-    "images": ["https://picsum.photos/seed/pa1/600/400", "https://picsum.photos/seed/pa2/600/400", "https://picsum.photos/seed/pa3/600/400"],
-    "b2b": false
-  },
-  {
-    "id": 22,
-    "name": "Gambas Grillées (Portion)",
-    "price": 180,
-    "category": "La Cuisine de Khalti",
-    "description": "8 pièces de gambas royales grillées au sel de mer et citron.",
-    "images": ["https://picsum.photos/seed/g1/600/400", "https://picsum.photos/seed/g2/600/400", "https://picsum.photos/seed/g3/600/400"],
-    "b2b": false
-  },
-  {
-    "id": 23,
-    "name": "Moules Marinières (1kg)",
-    "price": 90,
-    "category": "La Cuisine de Khalti",
-    "description": "Moules fraîches cuisinées à la marocaine (persillade et citron).",
-    "images": ["https://picsum.photos/seed/mo1/600/400", "https://picsum.photos/seed/mo2/600/400", "https://picsum.photos/seed/mo3/600/400"],
-    "b2b": false
-  },
-  {
-    "id": 24,
-    "name": "Salade de Poulpe à la Marocaine",
-    "price": 65,
-    "category": "La Cuisine de Khalti",
-    "description": "Poulpe tendre, tomates, oignons et cumin. Fraîcheur garantie.",
-    "images": ["https://picsum.photos/seed/os1/600/400", "https://picsum.photos/seed/os2/600/400", "https://picsum.photos/seed/os3/600/400"],
-    "b2b": false
-  },
-  {
-    "id": 25,
-    "name": "Poisson Farci au Four (L)",
-    "price": 280,
-    "category": "La Cuisine de Khalti",
-    "description": "Une belle dorade ou loup farci au vermicelle et champignons. Idéal pour 3-4 pers.",
-    "images": ["https://picsum.photos/seed/pf1/600/400", "https://picsum.photos/seed/pf2/600/400", "https://picsum.photos/seed/pf3/600/400"],
-    "b2b": false
-  },
-  {
-    "id": 26,
-    "name": "Briouates Congelées (24 pcs)",
-    "price": 200,
-    "category": "B2B & Stockage",
-    "description": "Pack économique de briouates prêtes à être frites. Pour professionnels.",
-    "images": ["https://picsum.photos/seed/fb1/600/400", "https://picsum.photos/seed/fb2/600/400", "https://picsum.photos/seed/fb3/600/400"],
-    "b2b": true
-  },
-  {
-    "id": 27,
-    "name": "Mix de Poisson pour Soupe (500g)",
-    "price": 55,
-    "category": "Ready-to-Cook",
-    "description": "Morceaux de poisson blanc, crevettes et calamars pour une soupe parfaite.",
-    "images": ["https://picsum.photos/seed/sm1/600/400", "https://picsum.photos/seed/sm2/600/400", "https://picsum.photos/seed/sm3/600/400"],
-    "b2b": true
-  },
-  {
-    "id": 28,
-    "name": "Nems au Saumon (Douzaine)",
-    "price": 160,
-    "category": "Finger Food & Traiteur",
-    "description": "Une variante premium au saumon frais et fromage frais.",
-    "images": ["https://picsum.photos/seed/sn1/600/400", "https://picsum.photos/seed/sn2/600/400", "https://picsum.photos/seed/sn3/600/400"],
-    "b2b": false
-  },
-  {
-    "id": 29,
-    "name": "Livrable B2B : Filet de Merlan (5kg+)",
-    "price": 400,
-    "category": "B2B & Stockage",
-    "description": "Prix spécial pour cafés et restaurants. Filets propres et calibrés.",
-    "images": ["https://picsum.photos/seed/b2b1/600/400", "https://picsum.photos/seed/b2b2/600/400", "https://picsum.photos/seed/b2b3/600/400"],
-    "b2b": true
-  },
-  {
-    "id": 30,
-    "name": "Plateau Réception 'Mariage' (Sur Mesure)",
-    "price": 1200,
-    "category": "B2B & Stockage",
-    "description": "Le meilleur de l'océan pour vos grands événements. Contactez-nous.",
-    "images": ["https://picsum.photos/seed/w1/600/400", "https://picsum.photos/seed/w2/600/400", "https://picsum.photos/seed/w3/600/400"],
-    "b2b": true
-  },
-  {
-    "id": 31,
-    "name": "Crevettes Gambas B2B (2kg+)",
-    "price": 320,
-    "category": "B2B & Stockage",
-    "description": "Vente en gros pour restaurateurs. Fraîcheur garantie.",
-    "images": ["https://picsum.photos/seed/bg1/600/400", "https://picsum.photos/seed/bg2/600/400", "https://picsum.photos/seed/bg3/600/400"],
-    "b2b": true
-  },
-  {
-    "id": 32,
-    "name": "Kit Paella pour 4 Personnes",
-    "price": 150,
-    "category": "Ready-to-Cook",
-    "description": "Riz, épices et mix de fruits de mer nettoyés. Cuisinez comme un chef.",
-    "images": ["https://picsum.photos/seed/kp1/600/400", "https://picsum.photos/seed/kp2/600/400", "https://picsum.photos/seed/kp3/600/400"],
-    "b2b": false
-  },
-  {
-    "id": 33,
-    "name": "Abonnement Hebdomadaire 'Filet Frais'",
-    "price": 300,
-    "category": "B2B & Stockage",
-    "description": "Recevez 3kg de filets de saison chaque semaine à votre porte.",
-    "images": ["https://picsum.photos/seed/sub1/600/400", "https://picsum.photos/seed/sub2/600/400", "https://picsum.photos/seed/sub3/600/400"],
-    "b2b": true
   }
 ]
