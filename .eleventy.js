@@ -1,7 +1,8 @@
 module.exports = function(eleventyConfig) {
-  // Pass through CSS and Image assets
+  // Pass through CSS, Image, and Favicon assets
   eleventyConfig.addPassthroughCopy("src/assets/css");
   eleventyConfig.addPassthroughCopy("src/assets/images");
+  eleventyConfig.addPassthroughCopy("src/favicon.ico");
 
   return {
     dir: {
