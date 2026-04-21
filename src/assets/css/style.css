@@ -491,6 +491,18 @@ h4,
   color: var(--alabaster);
   cursor: pointer;
   background: rgba(0, 31, 63, 0.7);
+  font-size: 0;
+  line-height: 0;
+}
+
+.slider-arrow::before {
+  content: "";
+  display: block;
+  width: 12px;
+  height: 12px;
+  margin: 0 auto;
+  border-top: 2px solid currentColor;
+  border-right: 2px solid currentColor;
 }
 
 .slider-prev {
@@ -499,6 +511,14 @@ h4,
 
 .slider-next {
   right: 12px;
+}
+
+.slider-prev::before {
+  transform: rotate(-135deg);
+}
+
+.slider-next::before {
+  transform: rotate(45deg);
 }
 
 .product-info {
@@ -746,6 +766,14 @@ h4,
 [dir="rtl"] .slider-next {
   right: auto;
   left: 12px;
+}
+
+[dir="rtl"] .slider-prev::before {
+  transform: rotate(45deg);
+}
+
+[dir="rtl"] .slider-next::before {
+  transform: rotate(-135deg);
 }
 
 .lightbox {
