@@ -1,0 +1,224 @@
+<main class="page-main">
+  <section class="hero-section">
+    <div class="hero-copy">
+      <p class="eyebrow">{{ i18n.site_name[lang] }}</p>
+      <h1>{{ i18n.hero_title[lang] }}</h1>
+      <p class="hero-text">{{ i18n.hero_desc[lang] }}</p>
+      <p class="hero-b2b">{{ i18n.hero_b2b[lang] }}</p>
+      <div class="hero-actions">
+        <a href="https://wa.me/212636925874?text={{ i18n.whatsapp_info[lang] | urlencode }}" class="button button-primary" target="_blank" rel="noreferrer">{{ i18n.hero_primary_cta[lang] }}</a>
+        <a href="#collection" class="button button-secondary">{{ i18n.hero_secondary_cta[lang] }}</a>
+      </div>
+    </div>
+    <aside class="hero-panel">
+      <p class="eyebrow">{{ i18n.hero_card_title[lang] }}</p>
+      <p class="hero-panel-copy">{{ i18n.hero_card_copy[lang] }}</p>
+      <div class="hero-panel-lines">
+        <span>{{ i18n.story_stat_1_value[lang] }}</span>
+        <span>{{ i18n.story_stat_2_value[lang] }}</span>
+        <span>{{ i18n.story_stat_3_value[lang] }}</span>
+      </div>
+    </aside>
+  </section>
+
+  <section class="story-section" id="story">
+    <div class="section-heading">
+      <p class="eyebrow">{{ i18n.story_kicker[lang] }}</p>
+      <h2>{{ i18n.story_title[lang] }}</h2>
+    </div>
+    <div class="story-grid">
+      <p class="story-body">{{ i18n.story_body[lang] }}</p>
+      <div class="story-stats">
+        <article class="story-stat">
+          <span>{{ i18n.story_stat_1_label[lang] }}</span>
+          <strong>{{ i18n.story_stat_1_value[lang] }}</strong>
+        </article>
+        <article class="story-stat">
+          <span>{{ i18n.story_stat_2_label[lang] }}</span>
+          <strong>{{ i18n.story_stat_2_value[lang] }}</strong>
+        </article>
+        <article class="story-stat">
+          <span>{{ i18n.story_stat_3_label[lang] }}</span>
+          <strong>{{ i18n.story_stat_3_value[lang] }}</strong>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="pillars-section">
+    <div class="section-heading">
+      <p class="eyebrow">{{ i18n.pillars_kicker[lang] }}</p>
+      <h2>{{ i18n.pillars_title[lang] }}</h2>
+    </div>
+    <div class="pillars-grid">
+      <article class="pillar-card">
+        <h3>{{ i18n.pillar_1_title[lang] }}</h3>
+        <p>{{ i18n.pillar_1_body[lang] }}</p>
+      </article>
+      <article class="pillar-card">
+        <h3>{{ i18n.pillar_2_title[lang] }}</h3>
+        <p>{{ i18n.pillar_2_body[lang] }}</p>
+      </article>
+      <article class="pillar-card">
+        <h3>{{ i18n.pillar_3_title[lang] }}</h3>
+        <p>{{ i18n.pillar_3_body[lang] }}</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="collection-section" id="collection">
+    <div class="section-heading">
+      <p class="eyebrow">{{ i18n.collection_kicker[lang] }}</p>
+      <h2>{{ i18n.collection_title[lang] }}</h2>
+      <p class="section-intro">{{ i18n.collection_intro[lang] }}</p>
+    </div>
+    <div class="collection-grid">
+      <article class="collection-card">
+        <h3>{{ i18n.collection_card_1_title[lang] }}</h3>
+        <p>{{ i18n.collection_card_1_body[lang] }}</p>
+      </article>
+      <article class="collection-card">
+        <h3>{{ i18n.collection_card_2_title[lang] }}</h3>
+        <p>{{ i18n.collection_card_2_body[lang] }}</p>
+      </article>
+      <article class="collection-card">
+        <h3>{{ i18n.collection_card_3_title[lang] }}</h3>
+        <p>{{ i18n.collection_card_3_body[lang] }}</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="featured-section">
+    <div class="section-heading">
+      <p class="eyebrow">{{ i18n.featured_kicker[lang] }}</p>
+      <h2>{{ i18n.featured_title[lang] }}</h2>
+      <p class="section-intro">{{ i18n.featured_description[lang] }}</p>
+    </div>
+    <div class="featured-grid">
+      {% for item in menu %}
+        {% if item.id in featuredIds %}
+          {% set gallery = item.images %}
+          <article class="featured-card">
+            <div class="image-gallery">
+              <div class="image-slider">
+                {% for img in gallery %}
+                  <img src="{{ img | url }}" alt="{{ item.name[lang] }}" loading="lazy">
+                {% endfor %}
+              </div>
+              {% if gallery.length > 1 %}
+                <button class="slider-arrow slider-prev" aria-label="{{ 'الصورة السابقة' if lang == 'ar' else 'Previous image' }}">{{ '›' if lang == 'ar' else '‹' }}</button>
+                <button class="slider-arrow slider-next" aria-label="{{ 'الصورة التالية' if lang == 'ar' else 'Next image' }}">{{ '‹' if lang == 'ar' else '›' }}</button>
+              {% endif %}
+            </div>
+            <div class="product-info">
+              <div class="product-meta-row">
+                <span class="product-badge">{{ i18n.featured_badge[lang] }}</span>
+                {% if item.b2b %}
+                  <span class="product-badge product-badge-outline">{{ i18n.b2b_tag[lang] }}</span>
+                {% endif %}
+              </div>
+              <h3 class="product-name">{{ item.name[lang] }}</h3>
+              <p class="product-price">{{ item.price }} {{ 'درهم' if lang == 'ar' else 'MAD' }}</p>
+              <p class="product-description">{{ item.description[lang] }}</p>
+              <a href="https://wa.me/212636925874?text={{ i18n.whatsapp_prefilled[lang] | urlencode }}{{ item.name[lang] | urlencode }}%20({{ item.price }}%20MAD)" class="button button-primary button-small" target="_blank" rel="noreferrer">{{ i18n.commander[lang] }}</a>
+            </div>
+          </article>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="catalog-section" id="catalog">
+    <div class="section-heading">
+      <p class="eyebrow">{{ i18n.catalog_kicker[lang] }}</p>
+      <h2>{{ i18n.catalog_title[lang] }}</h2>
+      <p class="section-intro">{{ i18n.catalog_intro[lang] }}</p>
+    </div>
+
+    <nav class="catalog-nav">
+      {% for category in categories %}
+        <a href="#cat-{{ loop.index }}" class="catalog-chip">{{ category }}</a>
+      {% endfor %}
+    </nav>
+
+    {% for category in categories %}
+      <section id="cat-{{ loop.index }}" class="category-section">
+        <h3 class="category-title">{{ category }}</h3>
+        <div class="product-grid">
+          {% for item in menu %}
+            {% if item.category[lang] == category %}
+              {% set gallery = item.images %}
+              <article class="product-card">
+                <div class="image-gallery">
+                  <div class="image-slider">
+                    {% for img in gallery %}
+                      <img src="{{ img | url }}" alt="{{ item.name[lang] }}" loading="lazy">
+                    {% endfor %}
+                  </div>
+                  {% if gallery.length > 1 %}
+                    <button class="slider-arrow slider-prev" aria-label="{{ 'الصورة السابقة' if lang == 'ar' else 'Previous image' }}">{{ '›' if lang == 'ar' else '‹' }}</button>
+                    <button class="slider-arrow slider-next" aria-label="{{ 'الصورة التالية' if lang == 'ar' else 'Next image' }}">{{ '‹' if lang == 'ar' else '›' }}</button>
+                  {% endif %}
+                </div>
+                <div class="product-info">
+                  <div class="product-meta-row">
+                    {% if item.b2b %}
+                      <span class="product-badge product-badge-outline">{{ i18n.b2b_tag[lang] }}</span>
+                    {% endif %}
+                  </div>
+                  <h4 class="product-name">{{ item.name[lang] }}</h4>
+                  <p class="product-price">{{ item.price }} {{ 'درهم' if lang == 'ar' else 'MAD' }}</p>
+                  <p class="product-description">{{ item.description[lang] }}</p>
+                  <a href="https://wa.me/212636925874?text={{ i18n.whatsapp_prefilled[lang] | urlencode }}{{ item.name[lang] | urlencode }}%20({{ item.price }}%20MAD)" class="button button-secondary button-small" target="_blank" rel="noreferrer">{{ i18n.commander[lang] }}</a>
+                </div>
+              </article>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </section>
+    {% endfor %}
+  </section>
+
+  <section class="process-section">
+    <div class="section-heading">
+      <p class="eyebrow">{{ i18n.process_kicker[lang] }}</p>
+      <h2>{{ i18n.process_title[lang] }}</h2>
+    </div>
+    <div class="process-steps">
+      <article class="process-step">
+        <span>01</span>
+        <h3>{{ i18n.process_step_1_title[lang] }}</h3>
+        <p>{{ i18n.process_step_1_body[lang] }}</p>
+      </article>
+      <article class="process-step">
+        <span>02</span>
+        <h3>{{ i18n.process_step_2_title[lang] }}</h3>
+        <p>{{ i18n.process_step_2_body[lang] }}</p>
+      </article>
+      <article class="process-step">
+        <span>03</span>
+        <h3>{{ i18n.process_step_3_title[lang] }}</h3>
+        <p>{{ i18n.process_step_3_body[lang] }}</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="b2b-section" id="pro">
+    <div class="section-heading section-heading-light">
+      <p class="eyebrow">{{ i18n.nav_pro[lang] }}</p>
+      <h2>{{ i18n.b2b_title[lang] }}</h2>
+      <p class="section-intro">{{ i18n.b2b_desc[lang] }}</p>
+    </div>
+    <div class="b2b-panel">
+      <div>
+        <p class="b2b-points-title">{{ i18n.b2b_points_title[lang] }}</p>
+        <div class="b2b-points">
+          <p>{{ i18n.b2b_point_1[lang] }}</p>
+          <p>{{ i18n.b2b_point_2[lang] }}</p>
+          <p>{{ i18n.b2b_point_3[lang] }}</p>
+        </div>
+      </div>
+      <a href="mailto:vague.de.gout@gmail.com?subject={{ i18n.quote_btn[lang] | urlencode }}" class="button button-gold">{{ i18n.quote_btn[lang] }}</a>
+    </div>
+  </section>
+</main>

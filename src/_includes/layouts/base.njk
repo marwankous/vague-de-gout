@@ -3,25 +3,36 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ title }} | Vague de Goût</title>
+  <title>{{ title }} | {{ i18n.site_name[lang] }}</title>
   <meta name="description" content="{{ i18n.hero_desc[lang] }}">
 
-  <!-- Open Graph -->
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Vague de Goût">
+  <meta property="og:title" content="{{ i18n.site_name[lang] }}">
   <meta property="og:description" content="{{ i18n.hero_desc[lang] }}">
-  <meta property="og:image" content="{{ '/assets/images/og-image.jpg' | url }}">
+  <meta property="og:image" content="{{ site.image }}">
 
-  <link rel="icon" type="image/png" href="{{ '/favicon.png' | url }}">
+  <link rel="icon" type="image/svg+xml" href="{{ '/logo.svg' | url }}">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | url }}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:ital,wght@0,700;1,700&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
-  
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+
   {% if lang == 'ar' %}
   <style>
-    body { font-family: 'Amiri', serif; }
-    .category-title { border-left: none; border-right: 5px solid var(--accent); padding-left: 0; padding-right: 1rem; }
+    body {
+      font-family: 'Amiri', serif;
+    }
+
+    .eyebrow,
+    .nav-shell,
+    .lang-switcher,
+    .hero-actions,
+    .catalog-nav,
+    .process-steps,
+    .b2b-points,
+    .footer-meta {
+      direction: rtl;
+    }
   </style>
   {% endif %}
 
@@ -30,82 +41,184 @@
     "@context": "https://schema.org",
     "@type": "FoodEstablishment",
     "name": "Vague de Goût",
-    "image": "https://marwankous.github.io/vague-de-gout/assets/images/logo.svg",
-    "@id": "https://marwankous.github.io/vague-de-gout/",
-    "url": "https://marwankous.github.io/vague-de-gout/",
+    "image": "{{ site.image }}",
+    "@id": "{{ site.url }}",
+    "url": "{{ site.url }}",
     "telephone": "+212636925874",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Rabat",
       "addressCountry": "MA"
     },
-    "menu": "https://marwankous.github.io/vague-de-gout/",
+    "menu": "{{ site.url }}",
     "servesCuisine": "Seafood, Moroccan"
   }
   </script>
 </head>
 <body>
-  <header>
-    <div class="logo">
-      <a href="{{ '/' | url }}{{ lang }}/">
-        <img src="{{ '/assets/images/logo.svg' | url }}" alt="Vague de Goût" class="logo-img">
-      </a>
-    </div>
-    <nav class="nav-links">
-      <div class="lang-switcher">
-        <a href="{{ '/' | url }}fr/" class="{{ 'active' if lang == 'fr' }}">FR</a>
-        <a href="{{ '/' | url }}en/" class="{{ 'active' if lang == 'en' }}">EN</a>
-        <a href="{{ '/' | url }}ar/" class="{{ 'active' if lang == 'ar' }}">AR</a>
+  <div class="site-shell">
+    <header class="site-header">
+      <div class="nav-shell">
+        <a href="{{ '/' | url }}{{ lang }}/" class="brand-mark" aria-label="Vague de Goût">
+          <img src="{{ '/logo.svg' | url }}" alt="Vague de Goût" class="logo-img">
+        </a>
+
+        <nav class="site-nav" aria-label="Primary">
+          <a href="#story">{{ i18n.nav_story[lang] }}</a>
+          <a href="#collection">{{ i18n.nav_collection[lang] }}</a>
+          <a href="#catalog">{{ i18n.nav_catalog[lang] }}</a>
+          <a href="#pro">{{ i18n.nav_pro[lang] }}</a>
+        </nav>
+
+        <div class="header-actions">
+          <div class="lang-switcher">
+            <a href="{{ '/' | url }}fr/" class="{{ 'active' if lang == 'fr' }}">FR</a>
+            <a href="{{ '/' | url }}en/" class="{{ 'active' if lang == 'en' }}">EN</a>
+            <a href="{{ '/' | url }}ar/" class="{{ 'active' if lang == 'ar' }}">AR</a>
+          </div>
+          <a href="https://instagram.com/vaguedegout" class="social-link" target="_blank" rel="noreferrer" aria-label="Instagram">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+          </a>
+        </div>
       </div>
-      <a href="https://instagram.com/vaguedegout" class="instagram-link" target="_blank">
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
-      </a>
-    </nav>
-  </header>
+    </header>
 
-  {{ content | safe }}
+    {{ content | safe }}
 
-  <section class="b2b-section">
-    <h2>{{ i18n.b2b_title[lang] }}</h2>
-    <p>{{ i18n.b2b_desc[lang] }}</p>
-    <a href="mailto:vague.de.gout@gmail.com?subject={{ i18n.quote_btn[lang] | urlencode }}" class="quote-btn">{{ i18n.quote_btn[lang] }}</a>
-  </section>
+    <footer class="site-footer">
+      <div class="footer-grid">
+        <div>
+          <p class="footer-brand">Vague de Goût</p>
+          <p class="footer-note">{{ i18n.footer_note[lang] }}</p>
+        </div>
+        <div class="footer-meta">
+          <p>{{ i18n.footer_location[lang] }}</p>
+          <p><a href="mailto:vague.de.gout@gmail.com">vague.de.gout@gmail.com</a></p>
+          <p><a href="https://wa.me/212636925874" target="_blank" rel="noreferrer">+212 636 92 58 74</a></p>
+        </div>
+      </div>
+      <p class="footer-copy">&copy; 2026 {{ i18n.site_name[lang] }}. {{ i18n.footer_rights[lang] }}</p>
+    </footer>
+  </div>
 
-  <footer>
-    <div class="footer-info">
-      <p><strong>{{ i18n.hero_title[lang] }}</strong></p>
-      <p>{{ i18n.footer_location[lang] }}</p>
-      <p>Email: vague.de.gout@gmail.com</p>
-      <p>WhatsApp: +212 636 92 58 74</p>
-    </div>
-    <p>&copy; 2026 {{ i18n.hero_title[lang] }}. {{ i18n.footer_rights[lang] }}</p>
-  </footer>
-
-  <!-- Floating Buttons -->
-  <a href="https://wa.me/212636925874?text={{ i18n.whatsapp_info[lang] | urlencode }}" class="sticky-whatsapp" target="_blank" aria-label="WhatsApp">
-    <span>💬</span>
+  <a href="https://wa.me/212636925874?text={{ i18n.whatsapp_info[lang] | urlencode }}" class="sticky-whatsapp" target="_blank" rel="noreferrer" aria-label="WhatsApp">
+    <span>WA</span>
   </a>
 
   <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
     ↑
   </button>
 
+  <div class="lightbox" id="lightbox">
+    <div class="lightbox-content">
+      <button class="lightbox-close" id="lightboxClose" aria-label="Close gallery">&times;</button>
+      <button class="lightbox-prev" id="lightboxPrev" aria-label="Previous image">&#10094;</button>
+      <img src="" alt="Enlarged view" class="lightbox-img" id="lightboxImg">
+      <button class="lightbox-next" id="lightboxNext" aria-label="Next image">&#10095;</button>
+    </div>
+  </div>
+
   <script>
-    const scrollTopBtn = document.getElementById("scrollTop");
-    
-    window.addEventListener("scroll", () => {
+    const scrollTopBtn = document.getElementById('scrollTop');
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightboxImg');
+    const lightboxClose = document.getElementById('lightboxClose');
+    const lightboxPrev = document.getElementById('lightboxPrev');
+    const lightboxNext = document.getElementById('lightboxNext');
+    let currentGallery = [];
+    let currentIndex = 0;
+
+    window.addEventListener('scroll', () => {
       if (window.pageYOffset > 300) {
-        scrollTopBtn.classList.add("show");
+        scrollTopBtn.classList.add('show');
       } else {
-        scrollTopBtn.classList.remove("show");
+        scrollTopBtn.classList.remove('show');
       }
     });
 
-    scrollTopBtn.addEventListener("click", () => {
-      window.scrollTo({
-        top: 0,
-        behavior: "smooth"
+    scrollTopBtn.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    function openLightbox(imgSrc, gallery) {
+      currentGallery = gallery;
+      currentIndex = gallery.indexOf(imgSrc);
+      updateLightboxImage();
+      lightbox.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function updateLightboxImage() {
+      lightboxImg.src = currentGallery[currentIndex];
+    }
+
+    function closeLightbox() {
+      lightbox.classList.remove('active');
+      document.body.style.overflow = 'auto';
+    }
+
+    lightboxClose.addEventListener('click', closeLightbox);
+
+    lightboxPrev.addEventListener('click', (event) => {
+      event.stopPropagation();
+      currentIndex = (currentIndex - 1 + currentGallery.length) % currentGallery.length;
+      updateLightboxImage();
+    });
+
+    lightboxNext.addEventListener('click', (event) => {
+      event.stopPropagation();
+      currentIndex = (currentIndex + 1) % currentGallery.length;
+      updateLightboxImage();
+    });
+
+    lightbox.addEventListener('click', (event) => {
+      if (event.target === lightbox) {
+        closeLightbox();
+      }
+    });
+
+    document.addEventListener('keydown', (event) => {
+      if (!lightbox.classList.contains('active')) {
+        return;
+      }
+      if (event.key === 'Escape') {
+        closeLightbox();
+      }
+      if (event.key === 'ArrowLeft') {
+        currentIndex = (currentIndex - 1 + currentGallery.length) % currentGallery.length;
+        updateLightboxImage();
+      }
+      if (event.key === 'ArrowRight') {
+        currentIndex = (currentIndex + 1) % currentGallery.length;
+        updateLightboxImage();
+      }
+    });
+
+    document.querySelectorAll('.image-slider').forEach((slider) => {
+      const images = Array.from(slider.querySelectorAll('img')).map((img) => img.src);
+
+      slider.querySelectorAll('img').forEach((img) => {
+        img.addEventListener('click', () => {
+          openLightbox(img.src, images);
+        });
       });
+
+      const parent = slider.parentElement;
+      const prevBtn = parent.querySelector('.slider-prev');
+      const nextBtn = parent.querySelector('.slider-next');
+
+      if (prevBtn && nextBtn) {
+        const isRtl = document.documentElement.dir === 'rtl';
+
+        prevBtn.addEventListener('click', () => {
+          const offset = isRtl ? slider.offsetWidth : -slider.offsetWidth;
+          slider.scrollBy({ left: offset, behavior: 'smooth' });
+        });
+        nextBtn.addEventListener('click', () => {
+          const offset = isRtl ? -slider.offsetWidth : slider.offsetWidth;
+          slider.scrollBy({ left: offset, behavior: 'smooth' });
+        });
+      }
     });
   </script>
 </body>

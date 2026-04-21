@@ -1,56 +1,20 @@
 ---
 layout: layouts/base.njk
 lang: en
-title: Home - Seafood Catering
+title: Premium seafood catering in Morocco
+categories:
+  - Large Bastilas
+  - Fresh Catch
+  - Finger Food & Catering
+  - Traditional Specialties
+  - Ready-to-Cook
+  - Marine Grocery
+  - Professional Services & Storage
+featuredIds:
+  - 1
+  - 6
+  - 9
+  - 30
 ---
 
-<main>
-  <section class="hero">
-    <h1>{{ i18n.hero_title[lang] }}</h1>
-    <p>{{ i18n.hero_desc[lang] }}</p>
-    <p class="hero-b2b">{{ i18n.hero_b2b[lang] }}</p>
-  </section>
-
-  {% set categories = [
-    "Large Bastilas",
-    "Fresh Catch",
-    "Finger Food & Catering",
-    "Traditional Specialties",
-    "Ready-to-Cook",
-    "Marine Grocery",
-    "Professional Services & Storage"
-  ] %}
-
-  <nav class="category-nav">
-    {% for category in categories %}
-      <a href="#cat-{{ loop.index }}" class="category-chip">{{ category }}</a>
-    {% endfor %}
-  </nav>
-
-  {% for category in categories %}
-  <section id="cat-{{ loop.index }}" class="category-section">
-    <h2 class="category-title">{{ category }}</h2>
-    <div class="product-grid">
-      {% for item in menu %}
-        {% if item.category[lang] == category %}
-          <article class="product-card">
-            <div class="image-gallery">
-              <img src="{{ item.images[0] | url }}" alt="{{ item.name[lang] }}" loading="lazy">
-            </div>
-            <div class="product-info">
-              <h3 class="product-name">{{ item.name[lang] }}</h3>
-              <p class="product-price">{{ item.price }} MAD</p>
-              <p class="product-description">{{ item.description[lang] }}</p>
-              <a href="https://wa.me/212636925874?text={{ i18n.whatsapp_prefilled[lang] | urlencode }}{{ item.name[lang] | urlencode }}%20({{ item.price }}%20MAD)" 
-                 class="whatsapp-btn" 
-                 target="_blank">
-                 {{ i18n.commander[lang] }}
-              </a>
-            </div>
-          </article>
-        {% endif %}
-      {% endfor %}
-    </div>
-  </section>
-  {% endfor %}
-</main>
+{% include "partials/homepage.njk" %}

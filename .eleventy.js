@@ -1,9 +1,11 @@
+const site = require("./src/_data/site");
+
 module.exports = function(eleventyConfig) {
   // Pass through CSS, Image, and Favicon assets
   eleventyConfig.addPassthroughCopy("src/assets/css");
   eleventyConfig.addPassthroughCopy("src/assets/images");
   eleventyConfig.addPassthroughCopy("src/favicon.png");
-  eleventyConfig.addPassthroughCopy("src/robots.txt");
+  eleventyConfig.addPassthroughCopy({ "logo.svg": "logo.svg" });
 
   return {
     dir: {
@@ -16,6 +18,6 @@ module.exports = function(eleventyConfig) {
     markdownTemplateEngine: "njk",
     htmlTemplateEngine: "njk",
     dataTemplateEngine: "njk",
-    pathPrefix: "/vague-de-gout/"
+    pathPrefix: site.pathPrefix
   };
 };
