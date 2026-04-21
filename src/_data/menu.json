@@ -19,8 +19,7 @@
     },
     "images": [
       "/assets/images/products/bastila-royale-fruits-de-mer-0.jpeg",
-      "/assets/images/products/bastila-royale-fruits-de-mer-1.jpeg",
-      "https://picsum.photos/seed/vague_1_2/600/400"
+      "/assets/images/products/bastila-royale-fruits-de-mer-1.jpeg"
     ],
     "b2b": false
   },
@@ -43,9 +42,8 @@
       "ar": "حجم الحفلات (10-12 شخصاً). قطعة مركزية غنية بمنتجات من الدرجة الأولى."
     },
     "images": [
-      "/assets/images/products/product_2_2.jpg",
-      "https://picsum.photos/seed/vague_2_1/600/400",
-      "https://picsum.photos/seed/vague_2_2/600/400"
+      "/assets/images/products/bastila-fruits-de-mer-xl-0.jpeg",
+      "/assets/images/products/bastila-fruits-de-mer-xl-1.jpeg"
     ],
     "b2b": true
   },
@@ -144,8 +142,7 @@
     },
     "images": [
       "/assets/images/products/plateau-mixte-0.jpeg",
-      "/assets/images/products/plateau-mixte-1.jpeg",
-      "/assets/images/products/product_28_1.jpg"
+      "/assets/images/products/plateau-mixte-1.jpeg"
     ],
     "b2b": false
   },
@@ -168,9 +165,8 @@
       "ar": "سمك موسى منظف وجاهز للطهي. صيد محلي لليوم."
     },
     "images": [
-      "/assets/images/products/product_7_1.jpg",
-      "/assets/images/products/product_7_2.jpg",
-      "/assets/images/products/product_7_3.jpg"
+      "/assets/images/products/sole-de-plage-fraiche-0.jpeg",
+      "/assets/images/products/sole-de-plage-fraiche-1.jpeg"
     ],
     "b2b": false
   },
@@ -219,8 +215,7 @@
     },
     "images": [
       "/assets/images/products/loup-de-mer-0.jpeg",
-      "/assets/images/products/loup-de-mer-1.jpeg",
-      "/assets/images/products/product_9_3.jpg"
+      "/assets/images/products/loup-de-mer-1.jpeg"
     ],
     "b2b": false
   },
@@ -744,8 +739,7 @@
     },
     "images": [
       "/assets/images/products/plateau-reception-mariage-0.jpeg",
-      "/assets/images/products/plateau-reception-mariage-1.jpeg",
-      "/assets/images/products/product_5_1.jpg"
+      "/assets/images/products/plateau-reception-mariage-1.jpeg"
     ],
     "b2b": true
   },
