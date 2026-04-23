@@ -42,8 +42,8 @@
       "ar": "حجم الحفلات (10-12 شخصاً). قطعة مركزية غنية بمنتجات من الدرجة الأولى."
     },
     "images": [
-      "/assets/images/products/bastila-fruits-de-mer-xl-0.jpeg",
-      "/assets/images/products/bastila-fruits-de-mer-xl-1.jpeg"
+      "/assets/images/products/bastila-fruits-de-mer-0.jpeg",
+      "/assets/images/products/bastila-fruits-de-mer-1.jpeg"
     ],
     "b2b": true
   },
@@ -66,8 +66,8 @@
       "ar": "12 قطعة فردية مقرمشة. مثالية لحفلات الاستقبال أو العشاء الخفيف."
     },
     "images": [
-      "/assets/images/products/Mini-Bastillas Poisson-1.jpeg",
-      "/assets/images/products/Mini-Bastillas Poisson-2.jpeg"
+      "/assets/images/products/mini-bastillas-poisson-0.jpeg",
+      "/assets/images/products/mini-bastillas-poisson-1.jpeg"
     ],
     "b2b": true
   },
@@ -90,8 +90,8 @@
       "ar": "مثلثات مقرمشة محشوة بالقمرون الوردي والشرمولة التقليدية."
     },
     "images": [
-      "/assets/images/products/Briouates aux Crevettes-0.jpeg",
-      "/assets/images/products/Briouates aux Crevettes-1.jpeg"
+      "/assets/images/products/briouates-aux-crevettes-0.jpeg",
+      "/assets/images/products/briouates-aux-crevettes-1.jpeg"
     ],
     "b2b": true
   },
@@ -114,8 +114,8 @@
       "ar": "لفائف طويلة محشوة بالحبار الطري والتوابل الخفيفة."
     },
     "images": [
-      "/assets/images/products/Cigares au Calamar-0.jpeg",
-      "/assets/images/products/Cigares au Calamar-1.jpeg"
+      "/assets/images/products/cigares-au-calamar-0.jpeg",
+      "/assets/images/products/cigares-au-calamar-1.jpeg"
     ],
     "b2b": true
   },
@@ -138,9 +138,9 @@
       "ar": "تشكيلة من 24 قطعة: ميني بسطيلة، بريوات وسيغار."
     },
     "images": [
-      "/assets/images/products/Plateau Mixte-0.jpeg",
-      "/assets/images/products/Plateau Mixte-1.jpeg",
-      "/assets/images/products/plateau-mixte-0.jpeg"
+      "/assets/images/products/plateau-mixte-vague-de-gout-0.jpeg",
+      "/assets/images/products/plateau-mixte-vague-de-gout-1.jpeg",
+      "/assets/images/products/plateau-mixte-vague-de-gout-2.jpeg"
     ],
     "b2b": false
   },
@@ -187,8 +187,8 @@
       "ar": "روبيان طازج، مقشر عند الطلب. جودة عالية."
     },
     "images": [
-      "/assets/images/products/product_8_1.jpg",
-      "/assets/images/products/product_8_2.jpg"
+      "/assets/images/products/crevettes-roses-nettoyees-0.jpg",
+      "/assets/images/products/crevettes-roses-nettoyees-1.jpg"
     ],
     "b2b": true
   },
@@ -235,8 +235,8 @@
       "ar": "شرائح سمك أبو سيف الطازجة، مثالية للشواء أو الطاجين."
     },
     "images": [
-      "/assets/images/products/Espadon en Tranches-0.jpeg",
-      "/assets/images/products/Espadon en Tranches-1.jpeg"
+      "/assets/images/products/espadon-en-tranches-0.jpeg",
+      "/assets/images/products/espadon-en-tranches-1.jpeg"
     ],
     "b2b": false
   },
@@ -259,8 +259,8 @@
       "ar": "سمك ميرلا صغير مثالي للقلي الخفيف والمقرمش."
     },
     "images": [
-      "/assets/images/products/Merlan Fritier.jpeg",
-      "/assets/images/products/Merlan Fritier-1.jpeg"
+      "/assets/images/products/merlan-fritier-0.jpeg",
+      "/assets/images/products/merlan-fritier-1.jpeg"
     ],
     "b2b": false
   },
@@ -283,8 +283,8 @@
       "ar": "حلقات حبار طازجة، جاهزة للقلي أو للبايلة."
     },
     "images": [
-      "/assets/images/products/Calamar Rings.jpeg",
-      "/assets/images/products/Calamar Rings-1.jpeg"
+      "/assets/images/products/calamar-rings-0.jpeg",
+      "/assets/images/products/calamar-rings-1.jpeg"
     ],
     "b2b": true
   },
@@ -307,8 +307,8 @@
       "ar": "سمك دنيس كامل، مقشر ومنظف. مذاق فاخر وحساس."
     },
     "images": [
-      "/assets/images/products/Dorade Royale-0.jpeg",
-      "/assets/images/products/Dorade Royale-1.jpeg"
+      "/assets/images/products/dorade-royale-0.jpeg",
+      "/assets/images/products/dorade-royale-1.jpeg"
     ],
     "b2b": false
   },
@@ -331,8 +331,8 @@
       "ar": "سردين محشو بالشرمولة، جاهز للقلي أو الطهي."
     },
     "images": [
-      "/assets/images/products/Sardines Mzeouej-1.jpeg",
-      "/assets/images/products/Sardines Mzeouej-2.jpeg"
+      "/assets/images/products/sardines-mzeouej-0.jpeg",
+      "/assets/images/products/sardines-mzeouej-1.jpeg"
     ],
     "b2b": false
   },
@@ -355,8 +355,8 @@
       "ar": "سمك مفروم بالتوابل، جاهز لطاجين الطماطم والفلفل."
     },
     "images": [
-      "/assets/images/products/Boulettes de Poisson (Sardine)-0.jpeg",
-      "/assets/images/products/Boulettes de Poisson (Sardine)-1.jpeg"
+      "/assets/images/products/boulettes-de-poisson-0.jpeg",
+      "/assets/images/products/boulettes-de-poisson-1.jpeg"
     ],
     "b2b": false
   },
@@ -379,8 +379,8 @@
       "ar": "طاجين محضر بالخضروات الموسمية والسمك الأبيض الطازج."
     },
     "images": [
-      "/assets/images/products/Tagine de Poisson du Jour-1.jpeg",
-      "/assets/images/products/Tagine de Poisson du Jour-2.jpeg"
+      "/assets/images/products/tagine-de-poisson-du-jour-0.jpeg",
+      "/assets/images/products/tagine-de-poisson-du-jour-1.jpeg"
     ],
     "b2b": false
   },
@@ -403,8 +403,8 @@
       "ar": "سر أطباقنا. تتبيلة الثوم والبقدونس والكزبرة والتوابل."
     },
     "images": [
-      "/assets/images/products/Chermoula Maison Signature-0.jpeg",
-      "/assets/images/products/Chermoula Maison Signature-1.jpeg"
+      "/assets/images/products/chermoula-maison-signature-0.jpeg",
+      "/assets/images/products/chermoula-maison-signature-1.jpeg"
     ],
     "b2b": true
   },
@@ -427,8 +427,8 @@
       "ar": "عجينة الفلفل المدخن والتوابل. حارة بشكل مثالي."
     },
     "images": [
-      "/assets/images/products/Harissa Maison-0.jpeg",
-      "/assets/images/products/Harissa Maison-1.jpeg"
+      "/assets/images/products/harissa-maison-0.jpeg",
+      "/assets/images/products/harissa-maison-1.jpeg"
     ],
     "b2b": false
   },
@@ -451,8 +451,8 @@
       "ar": "شرائح سمك أبيض متبلة في الشرمولة الخاصة بنا. جاهزة للمقلاة."
     },
     "images": [
-      "/assets/images/products/Filets de Poisson Marinés-0.jpeg",
-      "/assets/images/products/Filets de Poisson Marinés-1.jpeg"
+      "/assets/images/products/filets-de-poisson-marines-0.jpeg",
+      "/assets/images/products/filets-de-poisson-marines-1.jpeg"
     ],
     "b2b": false
   },
@@ -475,8 +475,8 @@
       "ar": "أرز بالزعفران، قمرون، حبار وبلح البحر الطازج."
     },
     "images": [
-      "/assets/images/products/Paella Seafood Individual-0.jpeg",
-      "/assets/images/products/Paella Seafood Individual-1.jpeg"
+      "/assets/images/products/paella-seafood-individual-0.jpeg",
+      "/assets/images/products/paella-seafood-individual-1.jpeg"
     ],
     "b2b": false
   },
@@ -499,8 +499,8 @@
       "ar": "8 قطع من القامباس الملكي المشوي بملح البحر والليمون."
     },
     "images": [
-      "/assets/images/products/Gambas Grillées-1.jpeg",
-      "/assets/images/products/Gambas Grillées-2.jpeg"
+      "/assets/images/products/gambas-grillees-0.jpeg",
+      "/assets/images/products/gambas-grillees-1.jpeg"
     ],
     "b2b": false
   },
@@ -523,8 +523,8 @@
       "ar": "بلح البحر الطازج مطهو على الطريقة المغربية (بقدونس وليمون)."
     },
     "images": [
-      "/assets/images/products/Moules Marinières  tagine-0.jpeg",
-      "/assets/images/products/Moules Marinières  tagine-1.jpeg"
+      "/assets/images/products/moules-marinieres-0.jpeg",
+      "/assets/images/products/moules-marinieres-1.jpeg"
     ],
     "b2b": false
   },
@@ -547,8 +547,8 @@
       "ar": "سمك دنيس أو قاروص محشو بالشعيرية والفطر. مثالي لـ 3-4 أشخاص."
     },
     "images": [
-      "/assets/images/products/Poisson Farci au Four-0.jpeg",
-      "/assets/images/products/Poisson Farci au Four-1.jpeg"
+      "/assets/images/products/poisson-farci-au-four-0.jpeg",
+      "/assets/images/products/poisson-farci-au-four-1.jpeg"
     ],
     "b2b": false
   },
@@ -571,8 +571,8 @@
       "ar": "علبة اقتصادية من البريوات الجاهزة للقلي. للمحترفين."
     },
     "images": [
-      "/assets/images/products/Briouates Congelées-0.jpeg",
-      "/assets/images/products/Briouates Congelées-1.jpeg"
+      "/assets/images/products/briouates-congelees-0.jpeg",
+      "/assets/images/products/briouates-congelees-1.jpeg"
     ],
     "b2b": true
   },
@@ -595,8 +595,8 @@
       "ar": "قطع سمك أبيض وقمرون وحبار لحساء مثالي."
     },
     "images": [
-      "/assets/images/products/Mix de Poisson pour Soupe-0.jpeg",
-      "/assets/images/products/Mix de Poisson pour Soupe-1.jpeg"
+      "/assets/images/products/mix-de-poisson-pour-soupe-0.jpeg",
+      "/assets/images/products/mix-de-poisson-pour-soupe-1.jpeg"
     ],
     "b2b": true
   },
@@ -619,8 +619,8 @@
       "ar": "بديل فاخر بالسلمون الطازج والجبن الكريمي."
     },
     "images": [
-      "/assets/images/products/Nems au Saumon-0.jpeg",
-      "/assets/images/products/Nems au Saumon-2.jpeg"
+      "/assets/images/products/nems-au-saumon-0.jpeg",
+      "/assets/images/products/nems-au-saumon-1.jpeg"
     ],
     "b2b": false
   },
@@ -643,8 +643,8 @@
       "ar": "سعر خاص للمقاهي والمطاعم. شرائح نظيفة وموزونة."
     },
     "images": [
-      "/assets/images/products/product_14_1.jpg",
-      "/assets/images/products/product_8_2.jpg"
+      "/assets/images/products/livrable-b2b-filet-de-merlan-0.jpg",
+      "/assets/images/products/livrable-b2b-filet-de-merlan-1.webp"
     ],
     "b2b": true
   },
@@ -667,9 +667,9 @@
       "ar": "أفضل ما في المحيط لمناسباتكم الكبرى. اتصلوا بنا."
     },
     "images": [
-      "/assets/images/products/Plateau Réception 'Mariage'-0.jpeg",
-      "/assets/images/products/Plateau Réception 'Mariage'-1.jpeg",
-      "/assets/images/products/Plateau Réception 'Mariage'-2.jpeg"
+      "/assets/images/products/plateau-reception-mariage-0.jpeg",
+      "/assets/images/products/plateau-reception-mariage-1.jpeg",
+      "/assets/images/products/plateau-reception-mariage-2.jpeg"
     ],
     "b2b": true
   },
@@ -692,8 +692,8 @@
       "ar": "البيع بالجملة للمطاعم. نضارة مضمونة."
     },
     "images": [
-      "/assets/images/products/product_7_1.jpg",
-      "/assets/images/products/product_5_1.jpg"
+      "/assets/images/products/crevettes-gambas-b2b-0.jpg",
+      "/assets/images/products/crevettes-gambas-b2b-1.webp"
     ],
     "b2b": true
   },
@@ -716,8 +716,8 @@
       "ar": "أرز، توابل وتشكيلة فواكه بحر منظفة. اطبخ كالمحترفين."
     },
     "images": [
-      "/assets/images/products/Paella Seafood Individual-0.jpeg",
-      "/assets/images/products/Paella Seafood Individual-1.jpeg"
+      "/assets/images/products/paella-seafood-individual-0.jpeg",
+      "/assets/images/products/paella-seafood-individual-1.jpeg"
     ],
     "b2b": false
   },
@@ -740,8 +740,8 @@
       "ar": "احصل على 3 كجم من الشرائح الموسمية كل أسبوع عند باب منزلك."
     },
     "images": [
-      "/assets/images/products/product_7_3.jpg",
-      "/assets/images/products/product_3_3.jpg"
+      "/assets/images/products/abonnement-hebdomadaire-filet-frais-0.webp",
+      "/assets/images/products/abonnement-hebdomadaire-filet-frais-1.jpg"
     ],
     "b2b": true
   }
