@@ -109,24 +109,8 @@
     ↑
   </button>
 
-  <div class="lightbox" id="lightbox">
-    <div class="lightbox-content">
-      <button class="lightbox-close" id="lightboxClose" aria-label="Close gallery">&times;</button>
-      <button class="lightbox-prev" id="lightboxPrev" aria-label="Previous image">&#10094;</button>
-      <img src="" alt="Enlarged view" class="lightbox-img" id="lightboxImg">
-      <button class="lightbox-next" id="lightboxNext" aria-label="Next image">&#10095;</button>
-    </div>
-  </div>
-
   <script>
     const scrollTopBtn = document.getElementById('scrollTop');
-    const lightbox = document.getElementById('lightbox');
-    const lightboxImg = document.getElementById('lightboxImg');
-    const lightboxClose = document.getElementById('lightboxClose');
-    const lightboxPrev = document.getElementById('lightboxPrev');
-    const lightboxNext = document.getElementById('lightboxNext');
-    let currentGallery = [];
-    let currentIndex = 0;
 
     window.addEventListener('scroll', () => {
       if (window.pageYOffset > 300) {
@@ -140,69 +124,7 @@
       window.scrollTo({ top: 0, behavior: 'smooth' });
     });
 
-    function openLightbox(imgSrc, gallery) {
-      currentGallery = gallery;
-      currentIndex = gallery.indexOf(imgSrc);
-      updateLightboxImage();
-      lightbox.classList.add('active');
-      document.body.style.overflow = 'hidden';
-    }
-
-    function updateLightboxImage() {
-      lightboxImg.src = currentGallery[currentIndex];
-    }
-
-    function closeLightbox() {
-      lightbox.classList.remove('active');
-      document.body.style.overflow = 'auto';
-    }
-
-    lightboxClose.addEventListener('click', closeLightbox);
-
-    lightboxPrev.addEventListener('click', (event) => {
-      event.stopPropagation();
-      currentIndex = (currentIndex - 1 + currentGallery.length) % currentGallery.length;
-      updateLightboxImage();
-    });
-
-    lightboxNext.addEventListener('click', (event) => {
-      event.stopPropagation();
-      currentIndex = (currentIndex + 1) % currentGallery.length;
-      updateLightboxImage();
-    });
-
-    lightbox.addEventListener('click', (event) => {
-      if (event.target === lightbox) {
-        closeLightbox();
-      }
-    });
-
-    document.addEventListener('keydown', (event) => {
-      if (!lightbox.classList.contains('active')) {
-        return;
-      }
-      if (event.key === 'Escape') {
-        closeLightbox();
-      }
-      if (event.key === 'ArrowLeft') {
-        currentIndex = (currentIndex - 1 + currentGallery.length) % currentGallery.length;
-        updateLightboxImage();
-      }
-      if (event.key === 'ArrowRight') {
-        currentIndex = (currentIndex + 1) % currentGallery.length;
-        updateLightboxImage();
-      }
-    });
-
     document.querySelectorAll('.image-slider').forEach((slider) => {
-      const images = Array.from(slider.querySelectorAll('img')).map((img) => img.src);
-
-      slider.querySelectorAll('img').forEach((img) => {
-        img.addEventListener('click', () => {
-          openLightbox(img.src, images);
-        });
-      });
-
       const parent = slider.parentElement;
       const prevBtn = parent.querySelector('.slider-prev');
       const nextBtn = parent.querySelector('.slider-next');

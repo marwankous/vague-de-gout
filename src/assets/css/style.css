@@ -476,7 +476,6 @@ h4,
   height: 100%;
   object-fit: cover;
   scroll-snap-align: start;
-  cursor: zoom-in;
 }
 
 .slider-arrow {
@@ -776,63 +775,6 @@ h4,
   transform: rotate(-135deg);
 }
 
-.lightbox {
-  position: fixed;
-  inset: 0;
-  display: none;
-  align-items: center;
-  justify-content: center;
-  background: rgba(0, 12, 28, 0.94);
-  z-index: 2000;
-}
-
-.lightbox.active {
-  display: flex;
-}
-
-.lightbox-content {
-  position: relative;
-  max-width: min(90vw, 1080px);
-  max-height: 90vh;
-}
-
-.lightbox-img {
-  max-width: 100%;
-  max-height: 90vh;
-  object-fit: contain;
-}
-
-.lightbox-close,
-.lightbox-prev,
-.lightbox-next {
-  position: absolute;
-  border: 0;
-  color: #fff;
-  background: none;
-  cursor: pointer;
-}
-
-.lightbox-close {
-  top: -42px;
-  right: 0;
-  font-size: 2rem;
-}
-
-.lightbox-prev,
-.lightbox-next {
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 3rem;
-}
-
-.lightbox-prev {
-  left: -52px;
-}
-
-.lightbox-next {
-  right: -52px;
-}
-
 @media (max-width: 1100px) {
   .hero-section,
   .story-grid,
@@ -911,13 +853,5 @@ h4,
 
   [dir="rtl"] .sticky-whatsapp {
     left: 16px;
-  }
-
-  .lightbox-prev {
-    left: 0;
-  }
-
-  .lightbox-next {
-    right: 0;
   }
 }
