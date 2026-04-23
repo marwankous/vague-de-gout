@@ -139,8 +139,7 @@
     },
     "images": [
       "/assets/images/products/plateau-mixte-vague-de-gout-0.jpeg",
-      "/assets/images/products/plateau-mixte-vague-de-gout-1.jpeg",
-      "/assets/images/products/plateau-mixte-vague-de-gout-2.jpeg"
+      "/assets/images/products/plateau-mixte-vague-de-gout-1.jpeg"
     ],
     "b2b": false
   },
@@ -668,7 +667,6 @@
     },
     "images": [
       "/assets/images/products/plateau-reception-mariage-0.jpeg",
-      "/assets/images/products/plateau-reception-mariage-1.jpeg",
       "/assets/images/products/plateau-reception-mariage-2.jpeg"
     ],
     "b2b": true
