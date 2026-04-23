@@ -1,5 +1,5 @@
-const url = "https://vaguedegout.ma";
-const logoPath = `${url}/assets/images/logo.svg`;
+const url = "https://vaguedegout.ma/";
+const logoPath = `${url}assets/images/logo.svg`;
 
 module.exports = {
   owner: "marwankous",
